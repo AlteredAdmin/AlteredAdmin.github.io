@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Office on AlteredAdmin</title>
-    <link>https://alteredadmin.github.io/categories/office/</link>
+    <link>/categories/office/</link>
     <description>Recent content in Office on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Jul 2021 12:12:23 -0400</lastBuildDate><atom:link href="https://alteredadmin.github.io/categories/office/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jul 2021 12:12:23 -0400</lastBuildDate><atom:link href="/categories/office/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use SCCM Baselines to Detect Office Installation Version and Bitness</title>
-      <link>https://alteredadmin.github.io/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/</link>
+      <link>/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/</link>
       <pubDate>Sat, 10 Jul 2021 12:12:23 -0400</pubDate>
       
-      <guid>https://alteredadmin.github.io/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/</guid>
+      <guid>/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/</guid>
       <description>Scenario You have a mix bag of Office 2019 and Office 2016 installs some are 32 or 64bit. You need to create a Device collections in SCCM that reflects what machines have which office version installed and what bitness as well.
 What i tried: My first instinct was to create a device collection using a combination of the below queries:
 select distinct SMS_R_System.ResourceId, SMS_R_System.ResourceType, SMS_R_System.Name, SMS_R_System.SMSUniqueIdentifier, SMS_R_System.ResourceDomainORWorkgroup, SMS_R_System.Client from SMS_R_System inner join SMS_G_System_ADD_REMOVE_PROGRAMS on SMS_G_System_ADD_REMOVE_PROGRAMS.</description>
@@ -20,10 +20,10 @@ select distinct SMS_R_System.ResourceId, SMS_R_System.ResourceType, SMS_R_System
     
     <item>
       <title>Create Barcode With Excel and Dymo Label Maker Software</title>
-      <link>https://alteredadmin.github.io/posts/create-barcode-with-excel-and-dymo-label-maker-software/</link>
+      <link>/posts/create-barcode-with-excel-and-dymo-label-maker-software/</link>
       <pubDate>Sat, 10 Jul 2021 12:03:36 -0400</pubDate>
       
-      <guid>https://alteredadmin.github.io/posts/create-barcode-with-excel-and-dymo-label-maker-software/</guid>
+      <guid>/posts/create-barcode-with-excel-and-dymo-label-maker-software/</guid>
       <description>For our environment we needed a inexpensive way to print barcodes, that was not tied to unique licensed software.
 our current barcodes are using code 39 format.
 what we decided to try to use a Dymo Label Printer

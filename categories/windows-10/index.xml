@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows 10 on AlteredAdmin</title>
-    <link>https://alteredadmin.github.io/categories/windows-10/</link>
+    <link>/categories/windows-10/</link>
     <description>Recent content in Windows 10 on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Jul 2021 12:11:02 -0400</lastBuildDate><atom:link href="https://alteredadmin.github.io/categories/windows-10/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jul 2021 12:11:02 -0400</lastBuildDate><atom:link href="/categories/windows-10/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Feature Update Windows 10 Using SCCM Application Model</title>
-      <link>https://alteredadmin.github.io/posts/feature-update-windows-10-using-sccm-application-model/</link>
+      <link>/posts/feature-update-windows-10-using-sccm-application-model/</link>
       <pubDate>Sat, 10 Jul 2021 12:11:02 -0400</pubDate>
       
-      <guid>https://alteredadmin.github.io/posts/feature-update-windows-10-using-sccm-application-model/</guid>
+      <guid>/posts/feature-update-windows-10-using-sccm-application-model/</guid>
       <description>This is not officially support by Microsoft
 Your probably wondering, why would you deploy windows 10 using the application model? why not use the feature update in SCCM?
 Well that would worked for still in service versions of windows 10 however if you are running an older version of windows 10, and deploy this feature update, SCCM can mark it as compliant and never install the Feature update.

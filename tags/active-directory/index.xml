@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Active Directory on AlteredAdmin</title>
-    <link>https://alteredadmin.github.io/tags/active-directory/</link>
+    <link>/tags/active-directory/</link>
     <description>Recent content in Active Directory on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Jul 2021 12:43:04 -0400</lastBuildDate><atom:link href="https://alteredadmin.github.io/tags/active-directory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jul 2021 12:43:04 -0400</lastBuildDate><atom:link href="/tags/active-directory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SCCM Create Device Collection From Active Directory OU</title>
-      <link>https://alteredadmin.github.io/posts/sccm-create-device-collection-from-active-directory-ou/</link>
+      <link>/posts/sccm-create-device-collection-from-active-directory-ou/</link>
       <pubDate>Sat, 10 Jul 2021 12:43:04 -0400</pubDate>
       
-      <guid>https://alteredadmin.github.io/posts/sccm-create-device-collection-from-active-directory-ou/</guid>
+      <guid>/posts/sccm-create-device-collection-from-active-directory-ou/</guid>
       <description>This is one is easy, Create a Device Collection in SCCM.
 Add A Query Rule using the below.
 select SMS_R_SYSTEM.ResourceID,SMS_R_SYSTEM.ResourceType,SMS_R_SYSTEM.Name,SMS_R_SYSTEM.SMSUniqueIdentifier,SMS_R_SYSTEM.ResourceDomainORWorkgroup,SMS_R_SYSTEM.Client from SMS_R_System Where SMS_R_System.SystemOUName like &#39;%Company.ORG/Company Computers/AnotherOU/NORTH%&#39;</description>

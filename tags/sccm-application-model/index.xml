@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SCCM application Model on AlteredAdmin</title>
-    <link>https://alteredadmin.github.io/tags/sccm-application-model/</link>
+    <link>/tags/sccm-application-model/</link>
     <description>Recent content in SCCM application Model on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Jul 2021 12:11:02 -0400</lastBuildDate><atom:link href="https://alteredadmin.github.io/tags/sccm-application-model/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jul 2021 12:11:02 -0400</lastBuildDate><atom:link href="/tags/sccm-application-model/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Feature Update Windows 10 Using SCCM Application Model</title>
-      <link>https://alteredadmin.github.io/posts/feature-update-windows-10-using-sccm-application-model/</link>
+      <link>/posts/feature-update-windows-10-using-sccm-application-model/</link>
       <pubDate>Sat, 10 Jul 2021 12:11:02 -0400</pubDate>
       
-      <guid>https://alteredadmin.github.io/posts/feature-update-windows-10-using-sccm-application-model/</guid>
+      <guid>/posts/feature-update-windows-10-using-sccm-application-model/</guid>
       <description>This is not officially support by Microsoft
 Your probably wondering, why would you deploy windows 10 using the application model? why not use the feature update in SCCM?
 Well that would worked for still in service versions of windows 10 however if you are running an older version of windows 10, and deploy this feature update, SCCM can mark it as compliant and never install the Feature update.
@@ -21,10 +21,10 @@ like wise why not use the upgrade task sequence?</description>
     
     <item>
       <title>How to Update Dell Drivers and BIOS During SCCM OSD</title>
-      <link>https://alteredadmin.github.io/posts/how-to-update-dell-drivers-and-bios-during-sccm-osd/</link>
+      <link>/posts/how-to-update-dell-drivers-and-bios-during-sccm-osd/</link>
       <pubDate>Sat, 10 Jul 2021 11:41:40 -0400</pubDate>
       
-      <guid>https://alteredadmin.github.io/posts/how-to-update-dell-drivers-and-bios-during-sccm-osd/</guid>
+      <guid>/posts/how-to-update-dell-drivers-and-bios-during-sccm-osd/</guid>
       <description>Download Dell command update &amp;amp; XML file &amp;amp; create Packages: Download Dell Command Update Do not download the Universal Windows Platform version
 Copy it to your SCCM Source content along with the below XML file.
 Keep in mind this file may need to be regenerated if its too old.

@@ -2,139 +2,139 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://alteredadmin.github.io/tags/active-directory/</loc>
+    <loc>/tags/active-directory/</loc>
     <lastmod>2021-07-10T12:43:04-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/</loc>
+    <loc>/</loc>
     <lastmod>2021-07-10T12:43:04-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2021-07-10T12:43:04-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/categories/guides/</loc>
+    <loc>/categories/guides/</loc>
     <lastmod>2021-07-10T12:43:04-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2021-07-10T12:43:04-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/sccm/</loc>
+    <loc>/tags/sccm/</loc>
     <lastmod>2021-07-10T12:43:04-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/categories/sccm/</loc>
+    <loc>/categories/sccm/</loc>
     <lastmod>2021-07-10T12:43:04-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/posts/sccm-create-device-collection-from-active-directory-ou/</loc>
+    <loc>/posts/sccm-create-device-collection-from-active-directory-ou/</loc>
     <lastmod>2021-07-10T12:43:04-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2021-07-10T12:43:04-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/office/</loc>
+    <loc>/tags/office/</loc>
     <lastmod>2021-07-10T12:12:23-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/categories/office/</loc>
+    <loc>/categories/office/</loc>
     <lastmod>2021-07-10T12:12:23-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/office-2016/</loc>
+    <loc>/tags/office-2016/</loc>
     <lastmod>2021-07-10T12:12:23-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/office-2019/</loc>
+    <loc>/tags/office-2019/</loc>
     <lastmod>2021-07-10T12:12:23-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/</loc>
+    <loc>/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/</loc>
     <lastmod>2021-07-10T12:12:23-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/feature-update/</loc>
+    <loc>/tags/feature-update/</loc>
     <lastmod>2021-07-10T12:11:02-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/posts/feature-update-windows-10-using-sccm-application-model/</loc>
+    <loc>/posts/feature-update-windows-10-using-sccm-application-model/</loc>
     <lastmod>2021-07-10T12:11:02-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/sccm-application-model/</loc>
+    <loc>/tags/sccm-application-model/</loc>
     <lastmod>2021-07-10T12:11:02-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/windows-10/</loc>
+    <loc>/tags/windows-10/</loc>
     <lastmod>2021-07-10T12:11:02-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/categories/windows-10/</loc>
+    <loc>/categories/windows-10/</loc>
     <lastmod>2021-07-10T12:11:02-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/application-model/</loc>
+    <loc>/tags/application-model/</loc>
     <lastmod>2021-07-10T12:06:59-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/copy-files/</loc>
+    <loc>/tags/copy-files/</loc>
     <lastmod>2021-07-10T12:06:59-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/posts/use-sccm-application-model-to-copy-files-to-an-endpoint/</loc>
+    <loc>/posts/use-sccm-application-model-to-copy-files-to-an-endpoint/</loc>
     <lastmod>2021-07-10T12:06:59-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/posts/create-barcode-with-excel-and-dymo-label-maker-software/</loc>
+    <loc>/posts/create-barcode-with-excel-and-dymo-label-maker-software/</loc>
     <lastmod>2021-07-10T12:03:36-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/dymo/</loc>
+    <loc>/tags/dymo/</loc>
     <lastmod>2021-07-10T12:03:36-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/excel/</loc>
+    <loc>/tags/excel/</loc>
     <lastmod>2021-07-10T12:03:36-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/posts/add-cmtrace-to-system32-folder/</loc>
+    <loc>/posts/add-cmtrace-to-system32-folder/</loc>
     <lastmod>2021-07-10T11:42:14-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/cmtrace/</loc>
+    <loc>/tags/cmtrace/</loc>
     <lastmod>2021-07-10T11:42:14-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/dell/</loc>
+    <loc>/tags/dell/</loc>
     <lastmod>2021-07-10T11:41:40-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/posts/how-to-update-dell-drivers-and-bios-during-sccm-osd/</loc>
+    <loc>/posts/how-to-update-dell-drivers-and-bios-during-sccm-osd/</loc>
     <lastmod>2021-07-10T11:41:40-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/osd/</loc>
+    <loc>/tags/osd/</loc>
     <lastmod>2021-07-10T11:41:40-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/posts/how-to-truly-speed-up-windows-login-time/</loc>
+    <loc>/posts/how-to-truly-speed-up-windows-login-time/</loc>
     <lastmod>2021-07-10T11:38:28-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/registry/</loc>
+    <loc>/tags/registry/</loc>
     <lastmod>2021-07-10T11:38:28-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/categories/registry/</loc>
+    <loc>/categories/registry/</loc>
     <lastmod>2021-07-10T11:38:28-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/vdi/</loc>
+    <loc>/tags/vdi/</loc>
     <lastmod>2021-07-10T11:38:28-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/categories/windows/</loc>
+    <loc>/categories/windows/</loc>
     <lastmod>2021-07-10T11:38:28-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/windows/</loc>
+    <loc>/tags/windows/</loc>
     <lastmod>2021-07-10T11:38:28-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/appvols/</loc>
+    <loc>/tags/appvols/</loc>
     <lastmod>2021-07-10T11:37:20-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/posts/copy-files-to-a-desktop-pool-using-vmware-appvols/</loc>
+    <loc>/posts/copy-files-to-a-desktop-pool-using-vmware-appvols/</loc>
     <lastmod>2021-07-10T11:37:20-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/vmware/</loc>
+    <loc>/tags/vmware/</loc>
     <lastmod>2021-07-10T11:37:20-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/categories/vmware-horizon/</loc>
+    <loc>/categories/vmware-horizon/</loc>
     <lastmod>2021-07-10T11:37:20-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/.msi/</loc>
+    <loc>/tags/.msi/</loc>
     <lastmod>2021-07-10T11:29:06-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/tags/font/</loc>
+    <loc>/tags/font/</loc>
     <lastmod>2021-07-10T11:29:06-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/posts/how-to-install-font-files-with-sccm-and-command-line/</loc>
+    <loc>/posts/how-to-install-font-files-with-sccm-and-command-line/</loc>
     <lastmod>2021-07-10T11:29:06-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/posts/hello_world/</loc>
+    <loc>/posts/hello_world/</loc>
     <lastmod>2021-07-09T22:25:08-04:00</lastmod>
   </url><url>
-    <loc>https://alteredadmin.github.io/categories/meta/</loc>
+    <loc>/categories/meta/</loc>
     <lastmod>2021-07-09T22:25:08-04:00</lastmod>
   </url>
 </urlset>
