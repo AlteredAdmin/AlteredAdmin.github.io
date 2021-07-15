@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CMtrace on AlteredAdmin</title>
+    <link>https://alteredadmin.github.io/tags/cmtrace/</link>
+    <description>Recent content in CMtrace on AlteredAdmin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Jul 2021 11:42:14 -0400</lastBuildDate><atom:link href="https://alteredadmin.github.io/tags/cmtrace/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Add CMtrace to System32 Folder with SCCM</title>
+      <link>https://alteredadmin.github.io/posts/add-cmtrace-to-system32-folder/</link>
+      <pubDate>Sat, 10 Jul 2021 11:42:14 -0400</pubDate>
+      
+      <guid>https://alteredadmin.github.io/posts/add-cmtrace-to-system32-folder/</guid>
+      <description>This is the method i use to make sure every machine has Cmtrace.
+Cmtrace is a tool to read log files, very handy when troubleshooting SCCM logs, or any other logs for that matter.
+You can read more about CMtrace here: Configuration Manager Tools - CMTrace
+I use the application model to install during operating system deployment (OSD).
+And i also create a deployment to All workstations to make sure its installed incase a user removes it.</description>
+    </item>
+    
+  </channel>
+</rss>

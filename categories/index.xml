@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on AlteredAdmin</title>
+    <link>https://alteredadmin.github.io/categories/</link>
+    <description>Recent content in Categories on AlteredAdmin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Jul 2021 12:43:04 -0400</lastBuildDate><atom:link href="https://alteredadmin.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guides</title>
+      <link>https://alteredadmin.github.io/categories/guides/</link>
+      <pubDate>Sat, 10 Jul 2021 12:43:04 -0400</pubDate>
+      
+      <guid>https://alteredadmin.github.io/categories/guides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SCCM</title>
+      <link>https://alteredadmin.github.io/categories/sccm/</link>
+      <pubDate>Sat, 10 Jul 2021 12:43:04 -0400</pubDate>
+      
+      <guid>https://alteredadmin.github.io/categories/sccm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Office</title>
+      <link>https://alteredadmin.github.io/categories/office/</link>
+      <pubDate>Sat, 10 Jul 2021 12:12:23 -0400</pubDate>
+      
+      <guid>https://alteredadmin.github.io/categories/office/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows 10</title>
+      <link>https://alteredadmin.github.io/categories/windows-10/</link>
+      <pubDate>Sat, 10 Jul 2021 12:11:02 -0400</pubDate>
+      
+      <guid>https://alteredadmin.github.io/categories/windows-10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>registry</title>
+      <link>https://alteredadmin.github.io/categories/registry/</link>
+      <pubDate>Sat, 10 Jul 2021 11:38:28 -0400</pubDate>
+      
+      <guid>https://alteredadmin.github.io/categories/registry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://alteredadmin.github.io/categories/windows/</link>
+      <pubDate>Sat, 10 Jul 2021 11:38:28 -0400</pubDate>
+      
+      <guid>https://alteredadmin.github.io/categories/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vmware Horizon</title>
+      <link>https://alteredadmin.github.io/categories/vmware-horizon/</link>
+      <pubDate>Sat, 10 Jul 2021 11:37:20 -0400</pubDate>
+      
+      <guid>https://alteredadmin.github.io/categories/vmware-horizon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meta</title>
+      <link>https://alteredadmin.github.io/categories/meta/</link>
+      <pubDate>Fri, 09 Jul 2021 22:25:08 -0400</pubDate>
+      
+      <guid>https://alteredadmin.github.io/categories/meta/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

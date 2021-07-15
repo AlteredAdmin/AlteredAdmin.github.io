@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Use SCCM Baselines to Detect Office Installation Version and Bitness - AlteredAdmin</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Use SCCM Baselines to Detect Office Installation Version and Bitness" />
+<meta property="og:description" content="Scenario You have a mix bag of Office 2019 and Office 2016 installs some are 32 or 64bit. You need to create a Device collections in SCCM that reflects what machines have which office version installed and what bitness as well.
+What i tried: My first instinct was to create a device collection using a combination of the below queries:
+select distinct SMS_R_System.ResourceId, SMS_R_System.ResourceType, SMS_R_System.Name, SMS_R_System.SMSUniqueIdentifier, SMS_R_System.ResourceDomainORWorkgroup, SMS_R_System.Client from SMS_R_System inner join SMS_G_System_ADD_REMOVE_PROGRAMS on SMS_G_System_ADD_REMOVE_PROGRAMS." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://alteredadmin.github.io/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-07-10T12:12:23-04:00" />
+<meta property="article:modified_time" content="2021-07-10T12:12:23-04:00" />
+
+
+		<meta itemprop="name" content="Use SCCM Baselines to Detect Office Installation Version and Bitness">
+<meta itemprop="description" content="Scenario You have a mix bag of Office 2019 and Office 2016 installs some are 32 or 64bit. You need to create a Device collections in SCCM that reflects what machines have which office version installed and what bitness as well.
+What i tried: My first instinct was to create a device collection using a combination of the below queries:
+select distinct SMS_R_System.ResourceId, SMS_R_System.ResourceType, SMS_R_System.Name, SMS_R_System.SMSUniqueIdentifier, SMS_R_System.ResourceDomainORWorkgroup, SMS_R_System.Client from SMS_R_System inner join SMS_G_System_ADD_REMOVE_PROGRAMS on SMS_G_System_ADD_REMOVE_PROGRAMS."><meta itemprop="datePublished" content="2021-07-10T12:12:23-04:00" />
+<meta itemprop="dateModified" content="2021-07-10T12:12:23-04:00" />
+<meta itemprop="wordCount" content="447">
+<meta itemprop="keywords" content="SCCM,Office,Office 2019,Office 2016," />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Altered Admin" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Altered Admin</div>
+					<div class="logo__tagline">Collection of scripts and thoughts about system Administration</div>
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Use SCCM Baselines to Detect Office Installation Version and Bitness</h1>
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">The Admin</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-10T12:12:23-04:00">2021-07-10</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/guides/" rel="category">Guides</a>, <a class="meta__link" href="/categories/sccm/" rel="category">SCCM</a>, <a class="meta__link" href="/categories/office/" rel="category">Office</a>
+	</span>
+</div></div>
+		</header>
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#scenario">Scenario</a>
+      <ul>
+        <li><a href="#what-i-tried">What i tried:</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-solution">The Solution</a>
+      <ul>
+        <li><a href="#powershell-scripts-used">PowerShell scripts used:</a></li>
+        <li><a href="#how-to-create-the-configuration-items-and-configuration-baselines">How to create the Configuration items and Configuration Baselines:</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+	</div>
+</div><div class="content post__content clearfix">
+			<h2 id="scenario">Scenario</h2>
+<p>You have a mix bag of Office 2019 and Office 2016 installs some are 32 or 64bit.
+You need to create a Device collections in SCCM that reflects what machines have which office version installed and what bitness as well.</p>
+<h3 id="what-i-tried">What i tried:</h3>
+<p>My first instinct was to create a device collection using a combination of the below queries:</p>
+<p><code>select distinct SMS_R_System.ResourceId, SMS_R_System.ResourceType, SMS_R_System.Name, SMS_R_System.SMSUniqueIdentifier, SMS_R_System.ResourceDomainORWorkgroup, SMS_R_System.Client from  SMS_R_System inner join SMS_G_System_ADD_REMOVE_PROGRAMS on SMS_G_System_ADD_REMOVE_PROGRAMS.ResourceID = SMS_R_System.ResourceId where SMS_G_System_ADD_REMOVE_PROGRAMS.DisplayName like &quot;Microsoft Office Professional Plus 2019%&quot;</code></p>
+<p><code>select distinct SMS_R_System.ResourceId, SMS_R_System.ResourceType, SMS_R_System.Name, SMS_R_System.SMSUniqueIdentifier, SMS_R_System.ResourceDomainORWorkgroup, SMS_R_System.Client from  SMS_R_System inner join SMS_G_System_ADD_REMOVE_PROGRAMS_64 on SMS_G_System_ADD_REMOVE_PROGRAMS_64.ResourceId = SMS_R_System.ResourceId where SMS_G_System_ADD_REMOVE_PROGRAMS_64.DisplayName like &quot;Microsoft Office Professional Plus 2019%&quot;</code></p>
+<p><code>select SMS_R_SYSTEM.ResourceID,SMS_R_SYSTEM.ResourceType,SMS_R_SYSTEM.Name,SMS_R_SYSTEM.SMSUniqueIdentifier,SMS_R_SYSTEM.ResourceDomainORWorkgroup,SMS_R_SYSTEM.Client from SMS_R_System inner join SMS_G_System_SoftwareFile on SMS_G_System_SoftwareFile.ResourceID = SMS_R_System.ResourceId where SMS_G_System_SoftwareFile.FilePath = &quot;C:\\Program Files (x86)\\Microsoft Office\\root\\Office16&quot;</code></p>
+<p>There are numerus reason why the above does not work correctly when you have a mix bag of bitness and installed versions.
+Also if you have had machines updated from 2016 to 2019 64 or 32 bit, not all folders and paths are cleaned up, therefor making devices appear in the collection that does not have the appropriate installed version.</p>
+<p>Because office 2016 and 2019 are kind of treated as rolling releases there are similarities in path.
+Bitness on the other hand, when looking in <code>ADD_REMOVE_PROGRAMS.DisplayName</code> the installer for office can be 32 bit while the office app its self is 64bit.</p>
+<p>This is not the whole picture but is enough for you to understand why this can be a problem.</p>
+<hr>
+<h2 id="the-solution">The Solution</h2>
+<p>Enter SCCM Baselines.</p>
+<p>Using PowerShell &amp; SCCM Baselines one can look at an exact location to see if a file exists, and then create a device collection if it is true.</p>
+<h3 id="powershell-scripts-used">PowerShell scripts used:</h3>
+<script type="application/javascript" src="https://gist.github.com/AlteredAdmin/6baec489870b38f79dc43d25b42cb69e.js"></script>
+
+<h3 id="how-to-create-the-configuration-items-and-configuration-baselines">How to create the Configuration items and Configuration Baselines:</h3>
+<p>I assume you already know how to create and use baselines so that wont be covered.</p>
+<p>However if you are new to baselines look here: 	<a href="https://docs.microsoft.com/en-us/mem/configmgr/compliance/deploy-use/create-configuration-items">Create configuration items in Configuration Manager</a>.</p>
+<p>You will want to create a new compliance rule for each item you want to detect with the PowerShell script. (See below screenshots)</p>
+<p><strong>The Compliance rules for each setting should be:</strong></p>
+<ul>
+<li>Rule type: Value</li>
+<li>The setting must comply with the following rule: The value returned by the specified sctript:</li>
+<li>Operator: Equals</li>
+<li>For the following Values: true</li>
+</ul>
+<p>Check Report Noncompliance if this setting instance is not found</p>
+<p><img src="/img/Use-SCCM-Baselines-to-Detect-Office-Installation-Version-and-Bitness/ConfigItems.JPG" alt="Compliance Rules"></p>
+<p><img src="/img/Use-SCCM-Baselines-to-Detect-Office-Installation-Version-and-Bitness/Compliance_Rules.JPG" alt="Compliance Rules"></p>
+<p><strong>After creating the compliance rule you will want to create the baseline.</strong></p>
+<ol>
+<li>Create configuration baseline</li>
+<li>add Configuration item</li>
+<li>Select the configuration item you created earlier. You will need to create a baseline for each one you created earlier.</li>
+<li>After you have created all the baselines you can deploy each to the collection you want to target.</li>
+</ol>
+<p><img src="/img/Use-SCCM-Baselines-to-Detect-Office-Installation-Version-and-Bitness/CreateConfigBaseline.JPG" alt="Compliance Rules"></p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/sccm/" rel="tag">SCCM</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/office/" rel="tag">Office</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/office-2019/" rel="tag">Office 2019</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/office-2016/" rel="tag">Office 2016</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/posts/feature-update-windows-10-using-sccm-application-model/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">Feature Update Windows 10 Using SCCM Application Model</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/posts/sccm-create-device-collection-from-active-directory-ou/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">SCCM Create Device Collection From Active Directory OU</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 Altered Admin.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>

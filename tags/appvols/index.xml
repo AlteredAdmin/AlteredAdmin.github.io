@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Appvols on AlteredAdmin</title>
+    <link>https://alteredadmin.github.io/tags/appvols/</link>
+    <description>Recent content in Appvols on AlteredAdmin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Jul 2021 11:37:20 -0400</lastBuildDate><atom:link href="https://alteredadmin.github.io/tags/appvols/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Copy Files to a Desktop Pool Using VMware Appvols</title>
+      <link>https://alteredadmin.github.io/posts/copy-files-to-a-desktop-pool-using-vmware-appvols/</link>
+      <pubDate>Sat, 10 Jul 2021 11:37:20 -0400</pubDate>
+      
+      <guid>https://alteredadmin.github.io/posts/copy-files-to-a-desktop-pool-using-vmware-appvols/</guid>
+      <description>Coming Soon</description>
+    </item>
+    
+  </channel>
+</rss>

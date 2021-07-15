@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Feature Update Windows 10 Using SCCM Application Model - AlteredAdmin</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Feature Update Windows 10 Using SCCM Application Model" />
+<meta property="og:description" content="This is not officially support by Microsoft
+Your probably wondering, why would you deploy windows 10 using the application model? why not use the feature update in SCCM?
+Well that would worked for still in service versions of windows 10 however if you are running an older version of windows 10, and deploy this feature update, SCCM can mark it as compliant and never install the Feature update.
+like wise why not use the upgrade task sequence?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://alteredadmin.github.io/posts/feature-update-windows-10-using-sccm-application-model/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-07-10T12:11:02-04:00" />
+<meta property="article:modified_time" content="2021-07-10T12:11:02-04:00" />
+
+
+		<meta itemprop="name" content="Feature Update Windows 10 Using SCCM Application Model">
+<meta itemprop="description" content="This is not officially support by Microsoft
+Your probably wondering, why would you deploy windows 10 using the application model? why not use the feature update in SCCM?
+Well that would worked for still in service versions of windows 10 however if you are running an older version of windows 10, and deploy this feature update, SCCM can mark it as compliant and never install the Feature update.
+like wise why not use the upgrade task sequence?"><meta itemprop="datePublished" content="2021-07-10T12:11:02-04:00" />
+<meta itemprop="dateModified" content="2021-07-10T12:11:02-04:00" />
+<meta itemprop="wordCount" content="446">
+<meta itemprop="keywords" content="Feature Update,Windows 10,SCCM,SCCM application Model," />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Altered Admin" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Altered Admin</div>
+					<div class="logo__tagline">Collection of scripts and thoughts about system Administration</div>
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Feature Update Windows 10 Using SCCM Application Model</h1>
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">The Admin</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-10T12:11:02-04:00">2021-07-10</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/windows-10/" rel="category">Windows 10</a>, <a class="meta__link" href="/categories/sccm/" rel="category">SCCM</a>, <a class="meta__link" href="/categories/guides/" rel="category">Guides</a>
+	</span>
+</div></div>
+		</header>
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#dell-command--update">Dell command | update</a></li>
+    <li><a href="#creating-the-feature-update-application">Creating the Feature Update Application</a></li>
+    <li><a href="#deployment">Deployment</a></li>
+  </ul>
+</nav>
+	</div>
+</div><div class="content post__content clearfix">
+			<p><strong>This is not officially support by Microsoft</strong></p>
+<p>Your probably wondering, why would you deploy windows 10 using the application model?  why not use the feature update in SCCM?</p>
+<p>Well that would worked for still in service versions of windows 10 however if you are running an older version of windows 10, and deploy this feature update, SCCM can mark it as compliant and never install the Feature update.</p>
+<p>like wise why not use the upgrade task sequence? Task sequences are heavy handed and can take a while to run while the application model is faster, with our having to start the task sequence framework. Plus while using the application model it is quicker to re run.</p>
+<p>Also other reason the update would not work is because out of date BIOS and drives along with there could be incompatible application installed on the system, that would need to updated or uninstalled before the update can continue.</p>
+<h2 id="dell-command--update">Dell command | update</h2>
+<p>In our shop we have dell machines so we use Dell command | update to update drives &amp; BIOS.  You will need to create an application that contains the Dell Command Update Application. This Application will need to be set as a dependency &amp; set to reboot after installation for the Feature update application. When its set as a dependency it will install first and reboot, thus updating drivers and Bios, before the feature update.</p>
+<p>This install script should look like the below:</p>
+<script type="application/javascript" src="https://gist.github.com/AlteredAdmin/43ec156b70a96b3570b2f7cd869bb04a.js"></script>
+
+<h2 id="creating-the-feature-update-application">Creating the Feature Update Application</h2>
+<p>To get the two needed files you will have to deploy the Feature update in SCCM to a test machine to get the update files from the cache on the client.
+The two files you need is the one ending in <code>.esd</code> &amp; <code>windowsupdatebox.exe</code>.  You will need to add this to the application source.</p>
+<p><strong>Install Script:</strong></p>
+<p>Deployment Type will need to be script installer.</p>
+<script type="application/javascript" src="https://gist.github.com/AlteredAdmin/c7393a1f71a4e6c7df4fba39bd46137d.js"></script>
+
+<p><strong>Detection Rules:</strong></p>
+<ul>
+<li>Setting Type: Registry</li>
+<li>Hive: HKEY_Local_Machine</li>
+<li>Key: SOFTWARE\Microsoft\Windows NT\CurrentVersion</li>
+<li>Value: CurrentBuild</li>
+<li>Data type: Integer</li>
+<li>Select: Must Satisfy the following rule</li>
+<li>Operator: Greater Than or equal to</li>
+<li>Value: 19042</li>
+</ul>
+<p>Don&rsquo;t forget to set the Dell command | update application as a dependency.</p>
+<h2 id="deployment">Deployment</h2>
+<p>After creating the above packages you should deploy Feature update application to your test group. to make sure everything is in order.
+Remember test, test &amp; test before deploying to production <strong>Always!</strong></p>
+<p>If the update does not apply check the below link to logs files that can help troubleshoot this. There is a log that should list the Applications or drivers that are not compatible.  You will have to uninstall or update those, before the update will apply.</p>
+<p><a href="https://support.microsoft.com/en-us/topic/log-files-that-are-created-when-you-upgrade-to-a-new-version-of-windows-9ec8aa31-0cc1-a0b2-2d98-e9c6714349b9">Log files that are created when you upgrade to a new version of Windows</a></p>
+
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/feature-update/" rel="tag">Feature Update</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/windows-10/" rel="tag">Windows 10</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/sccm/" rel="tag">SCCM</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/sccm-application-model/" rel="tag">SCCM application Model</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/posts/use-sccm-application-model-to-copy-files-to-an-endpoint/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">Use SCCM &amp; Application Model to Copy Files to an Endpoint</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">Use SCCM Baselines to Detect Office Installation Version and Bitness</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 Altered Admin.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>

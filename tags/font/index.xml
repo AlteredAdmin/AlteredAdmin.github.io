@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Font on AlteredAdmin</title>
+    <link>https://alteredadmin.github.io/tags/font/</link>
+    <description>Recent content in Font on AlteredAdmin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Jul 2021 11:29:06 -0400</lastBuildDate><atom:link href="https://alteredadmin.github.io/tags/font/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Install Font Files With SCCM and Command Line</title>
+      <link>https://alteredadmin.github.io/posts/how-to-install-font-files-with-sccm-and-command-line/</link>
+      <pubDate>Sat, 10 Jul 2021 11:29:06 -0400</pubDate>
+      
+      <guid>https://alteredadmin.github.io/posts/how-to-install-font-files-with-sccm-and-command-line/</guid>
+      <description>Scenario I was tasked with remoting installing a font on thousands on endpoints. I thought this should be easy, as surly their is a command line way to do this.
+I was wrong&amp;hellip;.
+There was a command line tool to install font files from the command however it was deprecated and removed.
+However you are not stuck with making API calls in user context to get the Font file installed.</description>
+    </item>
+    
+  </channel>
+</rss>
