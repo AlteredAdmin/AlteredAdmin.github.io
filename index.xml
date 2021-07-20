@@ -6,9 +6,76 @@
     <description>Recent content on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Jul 2021 12:43:04 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Jul 2021 14:37:19 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SCCM Create Device Collection From Active Directory OU</title>
+      <title>MacOS   Uninstall AdobeCC Script</title>
+      <link>/posts/macos-uninstall-adobecc-script/</link>
+      <pubDate>Tue, 20 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/posts/macos-uninstall-adobecc-script/</guid>
+      <description>Intro This script will run the uninstall for each Adobe Application called in the below script. This script can be added to Jamf or other MDM to uninstall old Adobe CC applications.
+script Coming Soon</description>
+    </item>
+    
+    <item>
+      <title>SCCM OSD Set OU Name via .VBS</title>
+      <link>/posts/sccm-osd-set-ou-name-via-vbs/</link>
+      <pubDate>Mon, 19 Jul 2021 16:23:32 -0400</pubDate>
+      
+      <guid>/posts/sccm-osd-set-ou-name-via-vbs/</guid>
+      <description>Overview This script will set AD OUs during OSD Based off starting characters for the computer name.
+Its set to check the first character for the computer name, however this can changed to a higher count by changing the sComputerName Variable.
+Script  SCCM Setup You will need to create a package in SCCM, this package will be called later in the task sequence.
+ In the task sequence click add -&amp;gt; Run Command Line Check Package: (Select your package you created).</description>
+    </item>
+    
+    <item>
+      <title>Tool Box</title>
+      <link>/pages/tool-box/</link>
+      <pubDate>Thu, 15 Jul 2021 16:18:58 -0400</pubDate>
+      
+      <guid>/pages/tool-box/</guid>
+      <description>Useful List of Tools and Links Dell Dell command  Dell Command Update - Download Dell Command Update and read release notes and specifications. Dell Command | Configure - Dell Command Configure is a packaged software application that provides configuration capability to business client platforms.  Dell drivers  Dell Command | Deploy Driver Packs for Enterprise Client OS Deployment - Article on Driver Packs for Enterprise Client  WYSE  Wyse Management Suite Wyse 5470 All-In-One  Microsoft SCCM  Right CLick tools  - Productivity extension for Microsoft Configuration Manager.</description>
+    </item>
+    
+    <item>
+      <title>JAMF - Location of Jamf.log</title>
+      <link>/posts/jamf-location-of-jamf.log/</link>
+      <pubDate>Thu, 15 Jul 2021 16:02:01 -0400</pubDate>
+      
+      <guid>/posts/jamf-location-of-jamf.log/</guid>
+      <description>Because for some reason i can never remember.
+Look in /private/var/log for jamf.log</description>
+    </item>
+    
+    <item>
+      <title>JAMF - Install Autodesk Maya 2020</title>
+      <link>/posts/jamf-install-autodesk-maya-2020/</link>
+      <pubDate>Thu, 15 Jul 2021 15:31:08 -0400</pubDate>
+      
+      <guid>/posts/jamf-install-autodesk-maya-2020/</guid>
+      <description>In this case I&amp;rsquo;m using JAMF, and putting the extracting the files to the administrator desktop.
+You will need to prestage the files on the computer. You can use Composer to create a DMG or PKG to extract the files on the endpoint.
+sudo &amp;quot;/Users/administrator/prestage_files/Autodesk/InstallMaya2020.app/Contents/Helper/Setup.app/Contents/MacOS/Setup&amp;quot; -i deploy --silent -o &amp;quot;/Users/administrator/prestage_files/Autodesk/InstallMaya2020.app/Contents/Helper/manifest/deployment_maya.xml&amp;quot;
+You can right Click on the package to show contents and edit the deployment_maya.xml, to inlcude your server info.
+For more information see Basic Maya network deployment</description>
+    </item>
+    
+    <item>
+      <title>Enable secure boot on Dell computers</title>
+      <link>/posts/sccm-enable-secure-boot-on-dell-computers/</link>
+      <pubDate>Thu, 15 Jul 2021 15:19:00 -0400</pubDate>
+      
+      <guid>/posts/sccm-enable-secure-boot-on-dell-computers/</guid>
+      <description>Intro With Windows 11 Coming soon, one of the requirements is that secure boot needs to be enabled.
+This is how you can use Dell command configure to enabled secure boot in the BIOS using SCCM.
+Download Download Dell Command | Configure
+Create packaged Open Dell Command | Configure Create and create a Multiplatform Package.
+Set the below settings for secure boot. I know you may be tempted to set other Bios settings as well.</description>
+    </item>
+    
+    <item>
+      <title>SCCM - Create Device Collection From Active Directory OU</title>
       <link>/posts/sccm-create-device-collection-from-active-directory-ou/</link>
       <pubDate>Sat, 10 Jul 2021 12:43:04 -0400</pubDate>
       
@@ -19,7 +86,7 @@ select SMS_R_SYSTEM.ResourceID,SMS_R_SYSTEM.ResourceType,SMS_R_SYSTEM.Name,SMS_R
     </item>
     
     <item>
-      <title>Use SCCM Baselines to Detect Office Installation Version and Bitness</title>
+      <title>SCCM - Use SCCM Baselines to Detect Office Installation Version and Bitness</title>
       <link>/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/</link>
       <pubDate>Sat, 10 Jul 2021 12:12:23 -0400</pubDate>
       
@@ -42,7 +109,7 @@ like wise why not use the upgrade task sequence?</description>
     </item>
     
     <item>
-      <title>Use SCCM &amp; Application Model to Copy Files to an Endpoint</title>
+      <title>SCCM - Use SCCM &amp; Application Model to Copy Files to an Endpoint</title>
       <link>/posts/use-sccm-application-model-to-copy-files-to-an-endpoint/</link>
       <pubDate>Sat, 10 Jul 2021 12:06:59 -0400</pubDate>
       
@@ -102,12 +169,12 @@ however while we was implementing VMware Horizon i wondered if the log in time c
     </item>
     
     <item>
-      <title>Copy Files to a Desktop Pool Using VMware Appvols</title>
-      <link>/posts/copy-files-to-a-desktop-pool-using-vmware-appvols/</link>
+      <title>Copy Files to a user&#39;s Desktop Using MSI installer</title>
+      <link>/posts/copy-files-to-a-users-desktop-using-msi-installer/</link>
       <pubDate>Sat, 10 Jul 2021 11:37:20 -0400</pubDate>
       
-      <guid>/posts/copy-files-to-a-desktop-pool-using-vmware-appvols/</guid>
-      <description>Coming Soon</description>
+      <guid>/posts/copy-files-to-a-users-desktop-using-msi-installer/</guid>
+      <description>Scenario You don&amp;rsquo;t want to use UEM/DEM, and you want files made avaibile to the user when they sign in. Or you have some files you need to get out to endpoints and don&amp;rsquo;t want to write a script to copy the files from the SCCM cache to the location. Sometimes you have to do things outside ofthe box. However these file don&amp;rsquo;t install they just need to be copied to a directory, such as the default/public desktop.</description>
     </item>
     
     <item>

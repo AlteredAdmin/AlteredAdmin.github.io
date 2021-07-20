@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MacOS on AlteredAdmin</title>
+    <link>/tags/macos/</link>
+    <description>Recent content in MacOS on AlteredAdmin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Jul 2021 14:37:19 -0400</lastBuildDate><atom:link href="/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MacOS   Uninstall AdobeCC Script</title>
+      <link>/posts/macos-uninstall-adobecc-script/</link>
+      <pubDate>Tue, 20 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/posts/macos-uninstall-adobecc-script/</guid>
+      <description>Intro This script will run the uninstall for each Adobe Application called in the below script. This script can be added to Jamf or other MDM to uninstall old Adobe CC applications.
+script Coming Soon</description>
+    </item>
+    
+  </channel>
+</rss>

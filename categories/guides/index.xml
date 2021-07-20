@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Jul 2021 12:43:04 -0400</lastBuildDate><atom:link href="/categories/guides/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SCCM Create Device Collection From Active Directory OU</title>
+      <title>SCCM - Create Device Collection From Active Directory OU</title>
       <link>/posts/sccm-create-device-collection-from-active-directory-ou/</link>
       <pubDate>Sat, 10 Jul 2021 12:43:04 -0400</pubDate>
       
@@ -19,7 +19,7 @@ select SMS_R_SYSTEM.ResourceID,SMS_R_SYSTEM.ResourceType,SMS_R_SYSTEM.Name,SMS_R
     </item>
     
     <item>
-      <title>Use SCCM Baselines to Detect Office Installation Version and Bitness</title>
+      <title>SCCM - Use SCCM Baselines to Detect Office Installation Version and Bitness</title>
       <link>/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/</link>
       <pubDate>Sat, 10 Jul 2021 12:12:23 -0400</pubDate>
       
@@ -42,7 +42,7 @@ like wise why not use the upgrade task sequence?</description>
     </item>
     
     <item>
-      <title>Use SCCM &amp; Application Model to Copy Files to an Endpoint</title>
+      <title>SCCM - Use SCCM &amp; Application Model to Copy Files to an Endpoint</title>
       <link>/posts/use-sccm-application-model-to-copy-files-to-an-endpoint/</link>
       <pubDate>Sat, 10 Jul 2021 12:06:59 -0400</pubDate>
       

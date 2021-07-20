@@ -36,11 +36,26 @@
 		<a class="logo__link" href="/" title="Altered Admin" rel="home">
 			<div class="logo__item logo__text">
 					<div class="logo__title">Altered Admin</div>
-					<div class="logo__tagline">Collection of scripts and thoughts about system Administration</div>
+					<div class="logo__tagline">Collection of scripts and thoughts about system Administration &amp; Python</div>
 				</div>
 		</a>
 	</div>
-		<div class="divider"></div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/pages/tool-box/">
+				
+				<span class="menu__text">Tool Box</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
 	</div>
 </header>
 		<div class="wrapper flex">
@@ -53,7 +68,7 @@
 	<header class="list__header">
 		<h2 class="list__title post__title">
 			<a href="/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/" rel="bookmark">
-			Use SCCM Baselines to Detect Office Installation Version and Bitness
+			SCCM - Use SCCM Baselines to Detect Office Installation Version and Bitness
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
@@ -88,11 +103,11 @@ select distinct SMS_R_System.ResourceId, SMS_R_System.ResourceType, SMS_R_System
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/posts/sccm-create-device-collection-from-active-directory-ou/">SCCM Create Device Collection From Active Directory OU</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/">Use SCCM Baselines to Detect Office Installation Version and Bitness</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/feature-update-windows-10-using-sccm-application-model/">Feature Update Windows 10 Using SCCM Application Model</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/use-sccm-application-model-to-copy-files-to-an-endpoint/">Use SCCM &amp; Application Model to Copy Files to an Endpoint</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/create-barcode-with-excel-and-dymo-label-maker-software/">Create Barcode With Excel and Dymo Label Maker Software</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/macos-uninstall-adobecc-script/">MacOS   Uninstall AdobeCC Script</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/sccm-osd-set-ou-name-via-vbs/">SCCM OSD Set OU Name via .VBS</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/jamf-location-of-jamf.log/">JAMF - Location of Jamf.log</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/jamf-install-autodesk-maya-2020/">JAMF - Install Autodesk Maya 2020</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/sccm-enable-secure-boot-on-dell-computers/">Enable secure boot on Dell computers</a></li>
 		</ul>
 	</div>
 </div>
@@ -101,8 +116,28 @@ select distinct SMS_R_System.ResourceId, SMS_R_System.ResourceType, SMS_R_System
 	<div class="widget__content">
 		<ul class="widget__list">
 			<li class="widget__item">
+				<a class="widget__link" href="/categories/adobe/">Adobe</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">1</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/autodesk/">Autodesk</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">1</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/dell/">Dell</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">1</span>
+				</li>
+			<li class="widget__item">
 				<a class="widget__link" href="/categories/guides/">Guides</a>&nbsp;
 				<span class="widget__counter widget__counter--bubble">8</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/jamf/">JAMF</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">2</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/macos/">MacOS</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">2</span>
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/meta/">Meta</a>&nbsp;
@@ -118,7 +153,11 @@ select distinct SMS_R_System.ResourceId, SMS_R_System.ResourceType, SMS_R_System
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/sccm/">SCCM</a>&nbsp;
-				<span class="widget__counter widget__counter--bubble">7</span>
+				<span class="widget__counter widget__counter--bubble">9</span>
+				</li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/tools/">Tools</a>&nbsp;
+				<span class="widget__counter widget__counter--bubble">1</span>
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/vmware-horizon/">Vmware Horizon</a>&nbsp;
@@ -126,7 +165,7 @@ select distinct SMS_R_System.ResourceId, SMS_R_System.ResourceType, SMS_R_System
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/windows/">Windows</a>&nbsp;
-				<span class="widget__counter widget__counter--bubble">1</span>
+				<span class="widget__counter widget__counter--bubble">2</span>
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/windows-10/">Windows 10</a>&nbsp;
@@ -138,28 +177,38 @@ select distinct SMS_R_System.ResourceId, SMS_R_System.ResourceType, SMS_R_System
 <div class="widget-taglist widget">
 	<h4 class="widget__title">Tags</h4>
 	<div class="widget__content">
-		<a class="widget-taglist__link widget__link btn" href="/tags/.msi/" title=".MSI">.MSI (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/.msi/" title=".MSI">.MSI (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/.vbs/" title=".VBS">.VBS (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/active-directory/" title="Active Directory">Active Directory (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/adobe/" title="Adobe">Adobe (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/application-model/" title="Application model">Application model (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/appvols/" title="Appvols">Appvols (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/cmtrace/" title="CMtrace">CMtrace (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/copy-files/" title="Copy files">Copy files (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/copy-files/" title="Copy files">Copy files (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/dell/" title="Dell">Dell (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/dymo/" title="Dymo">Dymo (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/excel/" title="Excel">Excel (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/feature-update/" title="Feature Update">Feature Update (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/font/" title="Font">Font (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/jamf/" title="Jamf">Jamf (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/jamf-log/" title="Jamf Log">Jamf Log (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/macos/" title="MacOS">MacOS (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/maya/" title="Maya">Maya (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/maya-2020/" title="Maya 2020">Maya 2020 (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/office/" title="Office">Office (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/office-2016/" title="Office 2016">Office 2016 (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/office-2019/" title="Office 2019">Office 2019 (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/osd/" title="OSD">OSD (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/osd/" title="OSD">OSD (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/registry/" title="registry">registry (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/sccm/" title="SCCM">SCCM (7)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/sccm/" title="SCCM">SCCM (9)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/sccm-application-model/" title="SCCM application Model">SCCM application Model (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/secure-boot/" title="Secure boot">Secure boot (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/tools/" title="Tools">Tools (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/vdi/" title="VDI">VDI (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/vmware/" title="Vmware">Vmware (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/windows/" title="windows">windows (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/windows/" title="windows">windows (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/windows-10/" title="Windows 10">Windows 10 (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/windows-11/" title="Windows 11">Windows 11 (1)</a>
 	</div>
 </div>
 <div class="widget-social widget">
@@ -172,6 +221,12 @@ select distinct SMS_R_System.ResourceId, SMS_R_System.ResourceType, SMS_R_System
 			</a>
 		</div>
 
+		
+		<div class="widget-social__item widget__item">
+			<a class="widget-social__link widget__link btn" title="Youtube" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCB5AJzzsN4dy6ZW6l70BP-A" target="_blank">
+				<span>Youtube</span>
+			</a>
+		</div>
 		
 		<div class="widget-social__item widget__item">
 			<a class="widget-social__link widget__link btn" title="Buy Me a Coffee" rel="noopener noreferrer" href="https://www.buymeacoffee.com/alteredadmin" target="_blank">

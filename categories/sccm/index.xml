@@ -6,9 +6,21 @@
     <description>Recent content in SCCM on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Jul 2021 12:43:04 -0400</lastBuildDate><atom:link href="/categories/sccm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jul 2021 16:23:32 -0400</lastBuildDate><atom:link href="/categories/sccm/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SCCM Create Device Collection From Active Directory OU</title>
+      <title>SCCM OSD Set OU Name via .VBS</title>
+      <link>/posts/sccm-osd-set-ou-name-via-vbs/</link>
+      <pubDate>Mon, 19 Jul 2021 16:23:32 -0400</pubDate>
+      
+      <guid>/posts/sccm-osd-set-ou-name-via-vbs/</guid>
+      <description>Overview This script will set AD OUs during OSD Based off starting characters for the computer name.
+Its set to check the first character for the computer name, however this can changed to a higher count by changing the sComputerName Variable.
+Script  SCCM Setup You will need to create a package in SCCM, this package will be called later in the task sequence.
+ In the task sequence click add -&amp;gt; Run Command Line Check Package: (Select your package you created).</description>
+    </item>
+    
+    <item>
+      <title>SCCM - Create Device Collection From Active Directory OU</title>
       <link>/posts/sccm-create-device-collection-from-active-directory-ou/</link>
       <pubDate>Sat, 10 Jul 2021 12:43:04 -0400</pubDate>
       
@@ -19,7 +31,7 @@ select SMS_R_SYSTEM.ResourceID,SMS_R_SYSTEM.ResourceType,SMS_R_SYSTEM.Name,SMS_R
     </item>
     
     <item>
-      <title>Use SCCM Baselines to Detect Office Installation Version and Bitness</title>
+      <title>SCCM - Use SCCM Baselines to Detect Office Installation Version and Bitness</title>
       <link>/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/</link>
       <pubDate>Sat, 10 Jul 2021 12:12:23 -0400</pubDate>
       
@@ -42,7 +54,7 @@ like wise why not use the upgrade task sequence?</description>
     </item>
     
     <item>
-      <title>Use SCCM &amp; Application Model to Copy Files to an Endpoint</title>
+      <title>SCCM - Use SCCM &amp; Application Model to Copy Files to an Endpoint</title>
       <link>/posts/use-sccm-application-model-to-copy-files-to-an-endpoint/</link>
       <pubDate>Sat, 10 Jul 2021 12:06:59 -0400</pubDate>
       
@@ -74,6 +86,15 @@ And i also create a deployment to All workstations to make sure its installed in
 Copy it to your SCCM Source content along with the below XML file.
 Keep in mind this file may need to be regenerated if its too old.
  You will need to create an Application for Dell Command Update. You can ether import the .exe you get from dell or extract the .</description>
+    </item>
+    
+    <item>
+      <title>Copy Files to a user&#39;s Desktop Using MSI installer</title>
+      <link>/posts/copy-files-to-a-users-desktop-using-msi-installer/</link>
+      <pubDate>Sat, 10 Jul 2021 11:37:20 -0400</pubDate>
+      
+      <guid>/posts/copy-files-to-a-users-desktop-using-msi-installer/</guid>
+      <description>Scenario You don&amp;rsquo;t want to use UEM/DEM, and you want files made avaibile to the user when they sign in. Or you have some files you need to get out to endpoints and don&amp;rsquo;t want to write a script to copy the files from the SCCM cache to the location. Sometimes you have to do things outside ofthe box. However these file don&amp;rsquo;t install they just need to be copied to a directory, such as the default/public desktop.</description>
     </item>
     
     <item>

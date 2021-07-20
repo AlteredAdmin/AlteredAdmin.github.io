@@ -6,22 +6,130 @@
     <description>Recent content in Tags on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Jul 2021 12:43:04 -0400</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Jul 2021 14:37:19 -0400</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Active Directory</title>
-      <link>/tags/active-directory/</link>
-      <pubDate>Sat, 10 Jul 2021 12:43:04 -0400</pubDate>
+      <title>Adobe</title>
+      <link>/tags/adobe/</link>
+      <pubDate>Tue, 20 Jul 2021 14:37:19 -0400</pubDate>
       
-      <guid>/tags/active-directory/</guid>
+      <guid>/tags/adobe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MacOS</title>
+      <link>/tags/macos/</link>
+      <pubDate>Tue, 20 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>.VBS</title>
+      <link>/tags/.vbs/</link>
+      <pubDate>Mon, 19 Jul 2021 16:23:32 -0400</pubDate>
+      
+      <guid>/tags/.vbs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OSD</title>
+      <link>/tags/osd/</link>
+      <pubDate>Mon, 19 Jul 2021 16:23:32 -0400</pubDate>
+      
+      <guid>/tags/osd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>/tags/tools/</link>
+      <pubDate>Thu, 15 Jul 2021 16:18:58 -0400</pubDate>
+      
+      <guid>/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jamf</title>
+      <link>/tags/jamf/</link>
+      <pubDate>Thu, 15 Jul 2021 16:02:01 -0400</pubDate>
+      
+      <guid>/tags/jamf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jamf Log</title>
+      <link>/tags/jamf-log/</link>
+      <pubDate>Thu, 15 Jul 2021 16:02:01 -0400</pubDate>
+      
+      <guid>/tags/jamf-log/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maya</title>
+      <link>/tags/maya/</link>
+      <pubDate>Thu, 15 Jul 2021 15:31:08 -0400</pubDate>
+      
+      <guid>/tags/maya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maya 2020</title>
+      <link>/tags/maya-2020/</link>
+      <pubDate>Thu, 15 Jul 2021 15:31:08 -0400</pubDate>
+      
+      <guid>/tags/maya-2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SCCM</title>
       <link>/tags/sccm/</link>
-      <pubDate>Sat, 10 Jul 2021 12:43:04 -0400</pubDate>
+      <pubDate>Thu, 15 Jul 2021 15:19:00 -0400</pubDate>
       
       <guid>/tags/sccm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Secure boot</title>
+      <link>/tags/secure-boot/</link>
+      <pubDate>Thu, 15 Jul 2021 15:19:00 -0400</pubDate>
+      
+      <guid>/tags/secure-boot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>/tags/windows/</link>
+      <pubDate>Thu, 15 Jul 2021 15:19:00 -0400</pubDate>
+      
+      <guid>/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows 11</title>
+      <link>/tags/windows-11/</link>
+      <pubDate>Thu, 15 Jul 2021 15:19:00 -0400</pubDate>
+      
+      <guid>/tags/windows-11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Active Directory</title>
+      <link>/tags/active-directory/</link>
+      <pubDate>Sat, 10 Jul 2021 12:43:04 -0400</pubDate>
+      
+      <guid>/tags/active-directory/</guid>
       <description></description>
     </item>
     
@@ -134,15 +242,6 @@
     </item>
     
     <item>
-      <title>OSD</title>
-      <link>/tags/osd/</link>
-      <pubDate>Sat, 10 Jul 2021 11:41:40 -0400</pubDate>
-      
-      <guid>/tags/osd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>registry</title>
       <link>/tags/registry/</link>
       <pubDate>Sat, 10 Jul 2021 11:38:28 -0400</pubDate>
@@ -161,11 +260,11 @@
     </item>
     
     <item>
-      <title>windows</title>
-      <link>/tags/windows/</link>
-      <pubDate>Sat, 10 Jul 2021 11:38:28 -0400</pubDate>
+      <title>.MSI</title>
+      <link>/tags/.msi/</link>
+      <pubDate>Sat, 10 Jul 2021 11:37:20 -0400</pubDate>
       
-      <guid>/tags/windows/</guid>
+      <guid>/tags/.msi/</guid>
       <description></description>
     </item>
     
@@ -184,15 +283,6 @@
       <pubDate>Sat, 10 Jul 2021 11:37:20 -0400</pubDate>
       
       <guid>/tags/vmware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>.MSI</title>
-      <link>/tags/.msi/</link>
-      <pubDate>Sat, 10 Jul 2021 11:29:06 -0400</pubDate>
-      
-      <guid>/tags/.msi/</guid>
       <description></description>
     </item>
     

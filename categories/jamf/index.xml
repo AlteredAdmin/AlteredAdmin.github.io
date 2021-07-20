@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JAMF on AlteredAdmin</title>
+    <link>/categories/jamf/</link>
+    <description>Recent content in JAMF on AlteredAdmin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Jul 2021 16:02:01 -0400</lastBuildDate><atom:link href="/categories/jamf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JAMF - Location of Jamf.log</title>
+      <link>/posts/jamf-location-of-jamf.log/</link>
+      <pubDate>Thu, 15 Jul 2021 16:02:01 -0400</pubDate>
+      
+      <guid>/posts/jamf-location-of-jamf.log/</guid>
+      <description>Because for some reason i can never remember.
+Look in /private/var/log for jamf.log</description>
+    </item>
+    
+    <item>
+      <title>JAMF - Install Autodesk Maya 2020</title>
+      <link>/posts/jamf-install-autodesk-maya-2020/</link>
+      <pubDate>Thu, 15 Jul 2021 15:31:08 -0400</pubDate>
+      
+      <guid>/posts/jamf-install-autodesk-maya-2020/</guid>
+      <description>In this case I&amp;rsquo;m using JAMF, and putting the extracting the files to the administrator desktop.
+You will need to prestage the files on the computer. You can use Composer to create a DMG or PKG to extract the files on the endpoint.
+sudo &amp;quot;/Users/administrator/prestage_files/Autodesk/InstallMaya2020.app/Contents/Helper/Setup.app/Contents/MacOS/Setup&amp;quot; -i deploy --silent -o &amp;quot;/Users/administrator/prestage_files/Autodesk/InstallMaya2020.app/Contents/Helper/manifest/deployment_maya.xml&amp;quot;
+You can right Click on the package to show contents and edit the deployment_maya.xml, to inlcude your server info.
+For more information see Basic Maya network deployment</description>
+    </item>
+    
+  </channel>
+</rss>

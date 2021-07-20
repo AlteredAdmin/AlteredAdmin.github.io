@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>SCCM Create Device Collection From Active Directory OU - AlteredAdmin</title>
+	<title>SCCM - Create Device Collection From Active Directory OU - AlteredAdmin</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-		<meta property="og:title" content="SCCM Create Device Collection From Active Directory OU" />
+		<meta property="og:title" content="SCCM - Create Device Collection From Active Directory OU" />
 <meta property="og:description" content="This is one is easy, Create a Device Collection in SCCM.
 Add A Query Rule using the below.
 select SMS_R_SYSTEM.ResourceID,SMS_R_SYSTEM.ResourceType,SMS_R_SYSTEM.Name,SMS_R_SYSTEM.SMSUniqueIdentifier,SMS_R_SYSTEM.ResourceDomainORWorkgroup,SMS_R_SYSTEM.Client from SMS_R_System Where SMS_R_System.SystemOUName like &#39;%Company.ORG/Company Computers/AnotherOU/NORTH%&#39;" />
@@ -17,7 +17,7 @@ select SMS_R_SYSTEM.ResourceID,SMS_R_SYSTEM.ResourceType,SMS_R_SYSTEM.Name,SMS_R
 <meta property="article:modified_time" content="2021-07-10T12:43:04-04:00" />
 
 
-		<meta itemprop="name" content="SCCM Create Device Collection From Active Directory OU">
+		<meta itemprop="name" content="SCCM - Create Device Collection From Active Directory OU">
 <meta itemprop="description" content="This is one is easy, Create a Device Collection in SCCM.
 Add A Query Rule using the below.
 select SMS_R_SYSTEM.ResourceID,SMS_R_SYSTEM.ResourceType,SMS_R_SYSTEM.Name,SMS_R_SYSTEM.SMSUniqueIdentifier,SMS_R_SYSTEM.ResourceDomainORWorkgroup,SMS_R_SYSTEM.Client from SMS_R_System Where SMS_R_System.SystemOUName like &#39;%Company.ORG/Company Computers/AnotherOU/NORTH%&#39;"><meta itemprop="datePublished" content="2021-07-10T12:43:04-04:00" />
@@ -44,11 +44,26 @@ select SMS_R_SYSTEM.ResourceID,SMS_R_SYSTEM.ResourceType,SMS_R_SYSTEM.Name,SMS_R
 		<a class="logo__link" href="/" title="Altered Admin" rel="home">
 			<div class="logo__item logo__text">
 					<div class="logo__title">Altered Admin</div>
-					<div class="logo__tagline">Collection of scripts and thoughts about system Administration</div>
+					<div class="logo__tagline">Collection of scripts and thoughts about system Administration &amp; Python</div>
 				</div>
 		</a>
 	</div>
-		<div class="divider"></div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/pages/tool-box/">
+				
+				<span class="menu__text">Tool Box</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
 	</div>
 </header>
 		<div class="wrapper flex">
@@ -57,7 +72,7 @@ select SMS_R_SYSTEM.ResourceID,SMS_R_SYSTEM.ResourceType,SMS_R_SYSTEM.Name,SMS_R
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">SCCM Create Device Collection From Active Directory OU</h1>
+			<h1 class="post__title">SCCM - Create Device Collection From Active Directory OU</h1>
 			<div class="post__meta meta"><div class="meta__item-author meta__item">
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">The Admin</span>
 </div>
@@ -93,7 +108,13 @@ select SMS_R_SYSTEM.ResourceID,SMS_R_SYSTEM.ResourceType,SMS_R_SYSTEM.Name,SMS_R
 	<div class="pager__item pager__item--prev">
 		<a class="pager__link" href="/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/" rel="prev">
 			<span class="pager__subtitle">«&thinsp;Previous</span>
-			<p class="pager__title">Use SCCM Baselines to Detect Office Installation Version and Bitness</p>
+			<p class="pager__title">SCCM - Use SCCM Baselines to Detect Office Installation Version and Bitness</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/posts/sccm-enable-secure-boot-on-dell-computers/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">Enable secure boot on Dell computers</p>
 		</a>
 	</div>
 </nav>
