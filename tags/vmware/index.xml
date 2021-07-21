@@ -6,11 +6,15 @@
     <description>Recent content in Vmware on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Jul 2021 11:37:20 -0400</lastBuildDate><atom:link href="/tags/vmware/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jul 2021 14:37:19 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/vmware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Copy Files to a user&#39;s Desktop Using MSI installer</title>
       <link>/posts/copy-files-to-a-users-desktop-using-msi-installer/</link>
-      <pubDate>Sat, 10 Jul 2021 11:37:20 -0400</pubDate>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
       
       <guid>/posts/copy-files-to-a-users-desktop-using-msi-installer/</guid>
       <description>Scenario You don&amp;rsquo;t want to use UEM/DEM, and you want files made avaibile to the user when they sign in. Or you have some files you need to get out to endpoints and don&amp;rsquo;t want to write a script to copy the files from the SCCM cache to the location. Sometimes you have to do things outside ofthe box. However these file don&amp;rsquo;t install they just need to be copied to a directory, such as the default/public desktop.</description>

@@ -6,29 +6,33 @@
     <description>Recent content in OSD on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Jul 2021 16:23:32 -0400</lastBuildDate><atom:link href="/tags/osd/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>SCCM OSD Set OU Name via .VBS</title>
-      <link>/posts/sccm-osd-set-ou-name-via-vbs/</link>
-      <pubDate>Mon, 19 Jul 2021 16:23:32 -0400</pubDate>
-      
-      <guid>/posts/sccm-osd-set-ou-name-via-vbs/</guid>
-      <description>Overview This script will set AD OUs during OSD Based off starting characters for the computer name.
-Its set to check the first character for the computer name, however this can changed to a higher count by changing the sComputerName Variable.
-Script  SCCM Setup You will need to create a package in SCCM, this package will be called later in the task sequence.
- In the task sequence click add -&amp;gt; Run Command Line Check Package: (Select your package you created).</description>
-    </item>
+    <lastBuildDate>Sat, 17 Jul 2021 14:37:19 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/osd/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>How to Update Dell Drivers and BIOS During SCCM OSD</title>
       <link>/posts/how-to-update-dell-drivers-and-bios-during-sccm-osd/</link>
-      <pubDate>Sat, 10 Jul 2021 11:41:40 -0400</pubDate>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
       
       <guid>/posts/how-to-update-dell-drivers-and-bios-during-sccm-osd/</guid>
       <description>Download Dell command update &amp;amp; XML file &amp;amp; create Packages: Download Dell Command Update Do not download the Universal Windows Platform version
 Copy it to your SCCM Source content along with the below XML file.
 Keep in mind this file may need to be regenerated if its too old.
  You will need to create an Application for Dell Command Update. You can ether import the .exe you get from dell or extract the .</description>
+    </item>
+    
+    <item>
+      <title>SCCM OSD Set OU Name via .VBS</title>
+      <link>/posts/sccm-osd-set-ou-name-via-vbs/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/posts/sccm-osd-set-ou-name-via-vbs/</guid>
+      <description>Overview This script will set AD OUs during OSD Based off starting characters for the computer name.
+Its set to check the first character for the computer name, however this can changed to a higher count by changing the sComputerName Variable.
+Script  SCCM Setup You will need to create a package in SCCM, this package will be called later in the task sequence.
+ In the task sequence click add -&amp;gt; Run Command Line Check Package: (Select your package you created).</description>
     </item>
     
   </channel>

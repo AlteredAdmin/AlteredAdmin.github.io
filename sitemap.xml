@@ -1,209 +1,345 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/tags/.msi/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/.vbs/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/active-directory/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/add-cmtrace-to-system32-folder/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
   <url>
     <loc>/tags/adobe/</loc>
-    <lastmod>2021-07-20T14:37:19-04:00</lastmod>
-  </url><url>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/adobe/</loc>
-    <lastmod>2021-07-20T14:37:19-04:00</lastmod>
-  </url><url>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2021-07-20T14:37:19-04:00</lastmod>
-  </url><url>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/application-model/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/appvols/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/autodesk/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
-    <lastmod>2021-07-20T14:37:19-04:00</lastmod>
-  </url><url>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cmtrace/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/copy-files/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/copy-files-to-a-users-desktop-using-msi-installer/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/create-barcode-with-excel-and-dymo-label-maker-software/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/dell/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/dell/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/dymo/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/sccm-enable-secure-boot-on-dell-computers/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/excel/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/feature-update/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/feature-update-windows-10-using-sccm-application-model/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/font/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/guides/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/how-to-install-font-files-with-sccm-and-command-line/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/how-to-truly-speed-up-windows-login-time/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/how-to-update-dell-drivers-and-bios-during-sccm-osd/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/jamf/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/jamf/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/jamf-install-autodesk-maya-2020/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/jamf-location-of-jamf.log/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/jamf-log/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/macos/</loc>
-    <lastmod>2021-07-20T14:37:19-04:00</lastmod>
-  </url><url>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/macos/</loc>
-    <lastmod>2021-07-20T14:37:19-04:00</lastmod>
-  </url><url>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/macos-uninstall-adobecc-script/</loc>
-    <lastmod>2021-07-20T14:37:19-04:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2021-07-20T14:37:19-04:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2021-07-20T14:37:19-04:00</lastmod>
-  </url><url>
-    <loc>/tags/.vbs/</loc>
-    <lastmod>2021-07-19T16:23:32-04:00</lastmod>
-  </url><url>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/maya/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/maya-2020/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/office/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/office/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/office-2016/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/office-2019/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/osd/</loc>
-    <lastmod>2021-07-19T16:23:32-04:00</lastmod>
-  </url><url>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/registry/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/registry/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sccm/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/sccm/</loc>
-    <lastmod>2021-07-19T16:23:32-04:00</lastmod>
-  </url><url>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/sccm-create-device-collection-from-active-directory-ou/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/use-sccm-application-model-to-copy-files-to-an-endpoint/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sccm-application-model/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/sccm-osd-set-ou-name-via-vbs/</loc>
-    <lastmod>2021-07-19T16:23:32-04:00</lastmod>
-  </url><url>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/secure-boot/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/vdi/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/vmware/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/vmware-horizon/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/windows/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/windows/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/windows-10/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/windows-10/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/windows-11/</loc>
+    <lastmod>2021-07-17T14:37:19-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/pages/</loc>
     <lastmod>2021-07-15T16:18:58-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/pages/tool-box/</loc>
     <lastmod>2021-07-15T16:18:58-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/tags/tools/</loc>
     <lastmod>2021-07-15T16:18:58-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/categories/tools/</loc>
     <lastmod>2021-07-15T16:18:58-04:00</lastmod>
-  </url><url>
-    <loc>/categories/jamf/</loc>
-    <lastmod>2021-07-15T16:02:01-04:00</lastmod>
-  </url><url>
-    <loc>/tags/jamf/</loc>
-    <lastmod>2021-07-15T16:02:01-04:00</lastmod>
-  </url><url>
-    <loc>/posts/jamf-location-of-jamf.log/</loc>
-    <lastmod>2021-07-15T16:02:01-04:00</lastmod>
-  </url><url>
-    <loc>/tags/jamf-log/</loc>
-    <lastmod>2021-07-15T16:02:01-04:00</lastmod>
-  </url><url>
-    <loc>/categories/autodesk/</loc>
-    <lastmod>2021-07-15T15:31:08-04:00</lastmod>
-  </url><url>
-    <loc>/posts/jamf-install-autodesk-maya-2020/</loc>
-    <lastmod>2021-07-15T15:31:08-04:00</lastmod>
-  </url><url>
-    <loc>/tags/maya/</loc>
-    <lastmod>2021-07-15T15:31:08-04:00</lastmod>
-  </url><url>
-    <loc>/tags/maya-2020/</loc>
-    <lastmod>2021-07-15T15:31:08-04:00</lastmod>
-  </url><url>
-    <loc>/categories/dell/</loc>
-    <lastmod>2021-07-15T15:19:00-04:00</lastmod>
-  </url><url>
-    <loc>/posts/sccm-enable-secure-boot-on-dell-computers/</loc>
-    <lastmod>2021-07-15T15:19:00-04:00</lastmod>
-  </url><url>
-    <loc>/tags/sccm/</loc>
-    <lastmod>2021-07-15T15:19:00-04:00</lastmod>
-  </url><url>
-    <loc>/tags/secure-boot/</loc>
-    <lastmod>2021-07-15T15:19:00-04:00</lastmod>
-  </url><url>
-    <loc>/categories/windows/</loc>
-    <lastmod>2021-07-15T15:19:00-04:00</lastmod>
-  </url><url>
-    <loc>/tags/windows/</loc>
-    <lastmod>2021-07-15T15:19:00-04:00</lastmod>
-  </url><url>
-    <loc>/tags/windows-11/</loc>
-    <lastmod>2021-07-15T15:19:00-04:00</lastmod>
-  </url><url>
-    <loc>/tags/active-directory/</loc>
-    <lastmod>2021-07-10T12:43:04-04:00</lastmod>
-  </url><url>
-    <loc>/categories/guides/</loc>
-    <lastmod>2021-07-10T12:43:04-04:00</lastmod>
-  </url><url>
-    <loc>/posts/sccm-create-device-collection-from-active-directory-ou/</loc>
-    <lastmod>2021-07-10T12:43:04-04:00</lastmod>
-  </url><url>
-    <loc>/tags/office/</loc>
-    <lastmod>2021-07-10T12:12:23-04:00</lastmod>
-  </url><url>
-    <loc>/categories/office/</loc>
-    <lastmod>2021-07-10T12:12:23-04:00</lastmod>
-  </url><url>
-    <loc>/tags/office-2016/</loc>
-    <lastmod>2021-07-10T12:12:23-04:00</lastmod>
-  </url><url>
-    <loc>/tags/office-2019/</loc>
-    <lastmod>2021-07-10T12:12:23-04:00</lastmod>
-  </url><url>
-    <loc>/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/</loc>
-    <lastmod>2021-07-10T12:12:23-04:00</lastmod>
-  </url><url>
-    <loc>/tags/feature-update/</loc>
-    <lastmod>2021-07-10T12:11:02-04:00</lastmod>
-  </url><url>
-    <loc>/posts/feature-update-windows-10-using-sccm-application-model/</loc>
-    <lastmod>2021-07-10T12:11:02-04:00</lastmod>
-  </url><url>
-    <loc>/tags/sccm-application-model/</loc>
-    <lastmod>2021-07-10T12:11:02-04:00</lastmod>
-  </url><url>
-    <loc>/tags/windows-10/</loc>
-    <lastmod>2021-07-10T12:11:02-04:00</lastmod>
-  </url><url>
-    <loc>/categories/windows-10/</loc>
-    <lastmod>2021-07-10T12:11:02-04:00</lastmod>
-  </url><url>
-    <loc>/tags/application-model/</loc>
-    <lastmod>2021-07-10T12:06:59-04:00</lastmod>
-  </url><url>
-    <loc>/tags/copy-files/</loc>
-    <lastmod>2021-07-10T12:06:59-04:00</lastmod>
-  </url><url>
-    <loc>/posts/use-sccm-application-model-to-copy-files-to-an-endpoint/</loc>
-    <lastmod>2021-07-10T12:06:59-04:00</lastmod>
-  </url><url>
-    <loc>/posts/create-barcode-with-excel-and-dymo-label-maker-software/</loc>
-    <lastmod>2021-07-10T12:03:36-04:00</lastmod>
-  </url><url>
-    <loc>/tags/dymo/</loc>
-    <lastmod>2021-07-10T12:03:36-04:00</lastmod>
-  </url><url>
-    <loc>/tags/excel/</loc>
-    <lastmod>2021-07-10T12:03:36-04:00</lastmod>
-  </url><url>
-    <loc>/posts/add-cmtrace-to-system32-folder/</loc>
-    <lastmod>2021-07-10T11:42:14-04:00</lastmod>
-  </url><url>
-    <loc>/tags/cmtrace/</loc>
-    <lastmod>2021-07-10T11:42:14-04:00</lastmod>
-  </url><url>
-    <loc>/tags/dell/</loc>
-    <lastmod>2021-07-10T11:41:40-04:00</lastmod>
-  </url><url>
-    <loc>/posts/how-to-update-dell-drivers-and-bios-during-sccm-osd/</loc>
-    <lastmod>2021-07-10T11:41:40-04:00</lastmod>
-  </url><url>
-    <loc>/posts/how-to-truly-speed-up-windows-login-time/</loc>
-    <lastmod>2021-07-10T11:38:28-04:00</lastmod>
-  </url><url>
-    <loc>/tags/registry/</loc>
-    <lastmod>2021-07-10T11:38:28-04:00</lastmod>
-  </url><url>
-    <loc>/categories/registry/</loc>
-    <lastmod>2021-07-10T11:38:28-04:00</lastmod>
-  </url><url>
-    <loc>/tags/vdi/</loc>
-    <lastmod>2021-07-10T11:38:28-04:00</lastmod>
-  </url><url>
-    <loc>/tags/.msi/</loc>
-    <lastmod>2021-07-10T11:37:20-04:00</lastmod>
-  </url><url>
-    <loc>/tags/appvols/</loc>
-    <lastmod>2021-07-10T11:37:20-04:00</lastmod>
-  </url><url>
-    <loc>/posts/copy-files-to-a-users-desktop-using-msi-installer/</loc>
-    <lastmod>2021-07-10T11:37:20-04:00</lastmod>
-  </url><url>
-    <loc>/tags/vmware/</loc>
-    <lastmod>2021-07-10T11:37:20-04:00</lastmod>
-  </url><url>
-    <loc>/categories/vmware-horizon/</loc>
-    <lastmod>2021-07-10T11:37:20-04:00</lastmod>
-  </url><url>
-    <loc>/tags/font/</loc>
-    <lastmod>2021-07-10T11:29:06-04:00</lastmod>
-  </url><url>
-    <loc>/posts/how-to-install-font-files-with-sccm-and-command-line/</loc>
-    <lastmod>2021-07-10T11:29:06-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/posts/hello_world/</loc>
     <lastmod>2021-07-09T22:25:08-04:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>/categories/meta/</loc>
     <lastmod>2021-07-09T22:25:08-04:00</lastmod>
   </url>
+  
 </urlset>

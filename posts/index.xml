@@ -6,127 +6,15 @@
     <description>Recent content in Posts on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Jul 2021 14:37:19 -0400</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>MacOS   Uninstall AdobeCC Script</title>
-      <link>/posts/macos-uninstall-adobecc-script/</link>
-      <pubDate>Tue, 20 Jul 2021 14:37:19 -0400</pubDate>
-      
-      <guid>/posts/macos-uninstall-adobecc-script/</guid>
-      <description>Intro This script will run the uninstall for each Adobe Application called in the below script. This script can be added to Jamf or other MDM to uninstall old Adobe CC applications.
-script Coming Soon</description>
-    </item>
+    <lastBuildDate>Sat, 17 Jul 2021 14:37:19 -0400</lastBuildDate>
     
-    <item>
-      <title>SCCM OSD Set OU Name via .VBS</title>
-      <link>/posts/sccm-osd-set-ou-name-via-vbs/</link>
-      <pubDate>Mon, 19 Jul 2021 16:23:32 -0400</pubDate>
-      
-      <guid>/posts/sccm-osd-set-ou-name-via-vbs/</guid>
-      <description>Overview This script will set AD OUs during OSD Based off starting characters for the computer name.
-Its set to check the first character for the computer name, however this can changed to a higher count by changing the sComputerName Variable.
-Script  SCCM Setup You will need to create a package in SCCM, this package will be called later in the task sequence.
- In the task sequence click add -&amp;gt; Run Command Line Check Package: (Select your package you created).</description>
-    </item>
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>JAMF - Location of Jamf.log</title>
-      <link>/posts/jamf-location-of-jamf.log/</link>
-      <pubDate>Thu, 15 Jul 2021 16:02:01 -0400</pubDate>
-      
-      <guid>/posts/jamf-location-of-jamf.log/</guid>
-      <description>Because for some reason i can never remember.
-Look in /private/var/log for jamf.log</description>
-    </item>
-    
-    <item>
-      <title>JAMF - Install Autodesk Maya 2020</title>
-      <link>/posts/jamf-install-autodesk-maya-2020/</link>
-      <pubDate>Thu, 15 Jul 2021 15:31:08 -0400</pubDate>
-      
-      <guid>/posts/jamf-install-autodesk-maya-2020/</guid>
-      <description>In this case I&amp;rsquo;m using JAMF, and putting the extracting the files to the administrator desktop.
-You will need to prestage the files on the computer. You can use Composer to create a DMG or PKG to extract the files on the endpoint.
-sudo &amp;quot;/Users/administrator/prestage_files/Autodesk/InstallMaya2020.app/Contents/Helper/Setup.app/Contents/MacOS/Setup&amp;quot; -i deploy --silent -o &amp;quot;/Users/administrator/prestage_files/Autodesk/InstallMaya2020.app/Contents/Helper/manifest/deployment_maya.xml&amp;quot;
-You can right Click on the package to show contents and edit the deployment_maya.xml, to inlcude your server info.
-For more information see Basic Maya network deployment</description>
-    </item>
-    
-    <item>
-      <title>Enable secure boot on Dell computers</title>
-      <link>/posts/sccm-enable-secure-boot-on-dell-computers/</link>
-      <pubDate>Thu, 15 Jul 2021 15:19:00 -0400</pubDate>
-      
-      <guid>/posts/sccm-enable-secure-boot-on-dell-computers/</guid>
-      <description>Intro With Windows 11 Coming soon, one of the requirements is that secure boot needs to be enabled.
-This is how you can use Dell command configure to enabled secure boot in the BIOS using SCCM.
-Download Download Dell Command | Configure
-Create packaged Open Dell Command | Configure Create and create a Multiplatform Package.
-Set the below settings for secure boot. I know you may be tempted to set other Bios settings as well.</description>
-    </item>
-    
-    <item>
-      <title>SCCM - Create Device Collection From Active Directory OU</title>
-      <link>/posts/sccm-create-device-collection-from-active-directory-ou/</link>
-      <pubDate>Sat, 10 Jul 2021 12:43:04 -0400</pubDate>
-      
-      <guid>/posts/sccm-create-device-collection-from-active-directory-ou/</guid>
-      <description>This is one is easy, Create a Device Collection in SCCM.
-Add A Query Rule using the below.
-select SMS_R_SYSTEM.ResourceID,SMS_R_SYSTEM.ResourceType,SMS_R_SYSTEM.Name,SMS_R_SYSTEM.SMSUniqueIdentifier,SMS_R_SYSTEM.ResourceDomainORWorkgroup,SMS_R_SYSTEM.Client from SMS_R_System Where SMS_R_System.SystemOUName like &#39;%Company.ORG/Company Computers/AnotherOU/NORTH%&#39;</description>
-    </item>
-    
-    <item>
-      <title>SCCM - Use SCCM Baselines to Detect Office Installation Version and Bitness</title>
-      <link>/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/</link>
-      <pubDate>Sat, 10 Jul 2021 12:12:23 -0400</pubDate>
-      
-      <guid>/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/</guid>
-      <description>Scenario You have a mix bag of Office 2019 and Office 2016 installs some are 32 or 64bit. You need to create a Device collections in SCCM that reflects what machines have which office version installed and what bitness as well.
-What i tried: My first instinct was to create a device collection using a combination of the below queries:
-select distinct SMS_R_System.ResourceId, SMS_R_System.ResourceType, SMS_R_System.Name, SMS_R_System.SMSUniqueIdentifier, SMS_R_System.ResourceDomainORWorkgroup, SMS_R_System.Client from SMS_R_System inner join SMS_G_System_ADD_REMOVE_PROGRAMS on SMS_G_System_ADD_REMOVE_PROGRAMS.</description>
-    </item>
-    
-    <item>
-      <title>Feature Update Windows 10 Using SCCM Application Model</title>
-      <link>/posts/feature-update-windows-10-using-sccm-application-model/</link>
-      <pubDate>Sat, 10 Jul 2021 12:11:02 -0400</pubDate>
-      
-      <guid>/posts/feature-update-windows-10-using-sccm-application-model/</guid>
-      <description>This is not officially support by Microsoft
-Your probably wondering, why would you deploy windows 10 using the application model? why not use the feature update in SCCM?
-Well that would worked for still in service versions of windows 10 however if you are running an older version of windows 10, and deploy this feature update, SCCM can mark it as compliant and never install the Feature update.
-like wise why not use the upgrade task sequence?</description>
-    </item>
-    
-    <item>
-      <title>SCCM - Use SCCM &amp; Application Model to Copy Files to an Endpoint</title>
-      <link>/posts/use-sccm-application-model-to-copy-files-to-an-endpoint/</link>
-      <pubDate>Sat, 10 Jul 2021 12:06:59 -0400</pubDate>
-      
-      <guid>/posts/use-sccm-application-model-to-copy-files-to-an-endpoint/</guid>
-      <description>Lets say you need to copy files to a location on the endpoint. that can be done using the SCCM application model in SCCM. this way you can confirm that the file and/or folders are on the endpoint at the end.
-One can do this Via PowerShell or batch file. I like to run the below command from a batch file, In the application i added the Batch file to the installation Program, this way i can add more commands to the process is needed.</description>
-    </item>
-    
-    <item>
-      <title>Create Barcode With Excel and Dymo Label Maker Software</title>
-      <link>/posts/create-barcode-with-excel-and-dymo-label-maker-software/</link>
-      <pubDate>Sat, 10 Jul 2021 12:03:36 -0400</pubDate>
-      
-      <guid>/posts/create-barcode-with-excel-and-dymo-label-maker-software/</guid>
-      <description>For our environment we needed a inexpensive way to print barcodes, that was not tied to unique licensed software.
-our current barcodes are using code 39 format.
-what we decided to try to use a Dymo Label Printer
-LabelWriter 450 Direct Thermal Label Printer
-And we fond labels that where not far off from our current size.
-DYMO LW Multi-Purpose Labels for LabelWriter Label Printers, White, 1&#39;&#39; x 2-1/8&#39;&#39;, 1 roll of 500 (30336)</description>
-    </item>
     
     <item>
       <title>Add CMtrace to System32 Folder with SCCM</title>
       <link>/posts/add-cmtrace-to-system32-folder/</link>
-      <pubDate>Sat, 10 Jul 2021 11:42:14 -0400</pubDate>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
       
       <guid>/posts/add-cmtrace-to-system32-folder/</guid>
       <description>This is the method i use to make sure every machine has Cmtrace.
@@ -137,9 +25,80 @@ And i also create a deployment to All workstations to make sure its installed in
     </item>
     
     <item>
+      <title>Copy Files to a user&#39;s Desktop Using MSI installer</title>
+      <link>/posts/copy-files-to-a-users-desktop-using-msi-installer/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/posts/copy-files-to-a-users-desktop-using-msi-installer/</guid>
+      <description>Scenario You don&amp;rsquo;t want to use UEM/DEM, and you want files made avaibile to the user when they sign in. Or you have some files you need to get out to endpoints and don&amp;rsquo;t want to write a script to copy the files from the SCCM cache to the location. Sometimes you have to do things outside ofthe box. However these file don&amp;rsquo;t install they just need to be copied to a directory, such as the default/public desktop.</description>
+    </item>
+    
+    <item>
+      <title>Create Barcode With Excel and Dymo Label Maker Software</title>
+      <link>/posts/create-barcode-with-excel-and-dymo-label-maker-software/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/posts/create-barcode-with-excel-and-dymo-label-maker-software/</guid>
+      <description>For our environment we needed a inexpensive way to print barcodes, that was not tied to unique licensed software.
+our current barcodes are using code 39 format.
+what we decided to try to use a Dymo Label Printer
+LabelWriter 450 Direct Thermal Label Printer
+And we fond labels that where not far off from our current size.
+DYMO LW Multi-Purpose Labels for LabelWriter Label Printers, White, 1&amp;rsquo;&amp;rsquo; x 2-1/8&amp;rsquo;&#39;, 1 roll of 500 (30336)</description>
+    </item>
+    
+    <item>
+      <title>Enable secure boot on Dell computers</title>
+      <link>/posts/sccm-enable-secure-boot-on-dell-computers/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/posts/sccm-enable-secure-boot-on-dell-computers/</guid>
+      <description>Intro With Windows 11 Coming soon, one of the requirements is that secure boot needs to be enabled.
+This is how you can use Dell command configure to enabled secure boot in the BIOS using SCCM.
+Download Download Dell Command | Configure
+Create packaged Open Dell Command | Configure Create and create a Multiplatform Package.
+Set the below settings for secure boot. I know you may be tempted to set other Bios settings as well.</description>
+    </item>
+    
+    <item>
+      <title>Feature Update Windows 10 Using SCCM Application Model</title>
+      <link>/posts/feature-update-windows-10-using-sccm-application-model/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/posts/feature-update-windows-10-using-sccm-application-model/</guid>
+      <description>This is not officially support by Microsoft
+Your probably wondering, why would you deploy windows 10 using the application model? why not use the feature update in SCCM?
+Well that would worked for still in service versions of windows 10 however if you are running an older version of windows 10, and deploy this feature update, SCCM can mark it as compliant and never install the Feature update.
+like wise why not use the upgrade task sequence?</description>
+    </item>
+    
+    <item>
+      <title>How to Install Font Files With SCCM and Command Line</title>
+      <link>/posts/how-to-install-font-files-with-sccm-and-command-line/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/posts/how-to-install-font-files-with-sccm-and-command-line/</guid>
+      <description>Scenario I was tasked with remoting installing a font on thousands on endpoints. I thought this should be easy, as surly their is a command line way to do this.
+I was wrong&amp;hellip;.
+There was a command line tool to install font files from the command however it was deprecated and removed.
+However you are not stuck with making API calls in user context to get the Font file installed.</description>
+    </item>
+    
+    <item>
+      <title>How to Truly Speed Up Windows Login Time with one Registry entry</title>
+      <link>/posts/how-to-truly-speed-up-windows-login-time/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/posts/how-to-truly-speed-up-windows-login-time/</guid>
+      <description>This was discovered when i was looking for a way to speed up login times for windows 10.
+We already looked removing the universal apps that ship with windows 10, and a few other tricks here or there to get log in time to down from 1:20 to 30 - 50 seconds. still that is good from what i have read online.
+however while we was implementing VMware Horizon i wondered if the log in time could be decreased even further.</description>
+    </item>
+    
+    <item>
       <title>How to Update Dell Drivers and BIOS During SCCM OSD</title>
       <link>/posts/how-to-update-dell-drivers-and-bios-during-sccm-osd/</link>
-      <pubDate>Sat, 10 Jul 2021 11:41:40 -0400</pubDate>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
       
       <guid>/posts/how-to-update-dell-drivers-and-bios-during-sccm-osd/</guid>
       <description>Download Dell command update &amp;amp; XML file &amp;amp; create Packages: Download Dell Command Update Do not download the Universal Windows Platform version
@@ -149,35 +108,80 @@ Keep in mind this file may need to be regenerated if its too old.
     </item>
     
     <item>
-      <title>How to Truly Speed Up Windows Login Time with one Registry entry</title>
-      <link>/posts/how-to-truly-speed-up-windows-login-time/</link>
-      <pubDate>Sat, 10 Jul 2021 11:38:28 -0400</pubDate>
+      <title>JAMF - Install Autodesk Maya 2020</title>
+      <link>/posts/jamf-install-autodesk-maya-2020/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
       
-      <guid>/posts/how-to-truly-speed-up-windows-login-time/</guid>
-      <description>This was discovered when i was looking for a way to speed up login times for windows 10.
-We already looked removing the universal apps that ship with windows 10, and a few other tricks here or there to get log in time to down from 1:20 to 30 - 50 seconds. still that is good from what i have read online.
-however while we was implementing VMware Horizon i wondered if the log in time could be decreased even further.</description>
+      <guid>/posts/jamf-install-autodesk-maya-2020/</guid>
+      <description>In this case I&amp;rsquo;m using JAMF, and putting the extracting the files to the administrator desktop.
+You will need to prestage the files on the computer. You can use Composer to create a DMG or PKG to extract the files on the endpoint.
+sudo &amp;quot;/Users/administrator/prestage_files/Autodesk/InstallMaya2020.app/Contents/Helper/Setup.app/Contents/MacOS/Setup&amp;quot; -i deploy --silent -o &amp;quot;/Users/administrator/prestage_files/Autodesk/InstallMaya2020.app/Contents/Helper/manifest/deployment_maya.xml&amp;quot;
+You can right Click on the package to show contents and edit the deployment_maya.xml, to inlcude your server info.
+For more information see Basic Maya network deployment</description>
     </item>
     
     <item>
-      <title>Copy Files to a user&#39;s Desktop Using MSI installer</title>
-      <link>/posts/copy-files-to-a-users-desktop-using-msi-installer/</link>
-      <pubDate>Sat, 10 Jul 2021 11:37:20 -0400</pubDate>
+      <title>JAMF - Location of Jamf.log</title>
+      <link>/posts/jamf-location-of-jamf.log/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
       
-      <guid>/posts/copy-files-to-a-users-desktop-using-msi-installer/</guid>
-      <description>Scenario You don&amp;rsquo;t want to use UEM/DEM, and you want files made avaibile to the user when they sign in. Or you have some files you need to get out to endpoints and don&amp;rsquo;t want to write a script to copy the files from the SCCM cache to the location. Sometimes you have to do things outside ofthe box. However these file don&amp;rsquo;t install they just need to be copied to a directory, such as the default/public desktop.</description>
+      <guid>/posts/jamf-location-of-jamf.log/</guid>
+      <description>Because for some reason i can never remember.
+Look in /private/var/log for jamf.log</description>
     </item>
     
     <item>
-      <title>How to Install Font Files With SCCM and Command Line</title>
-      <link>/posts/how-to-install-font-files-with-sccm-and-command-line/</link>
-      <pubDate>Sat, 10 Jul 2021 11:29:06 -0400</pubDate>
+      <title>MacOS   Uninstall AdobeCC Script</title>
+      <link>/posts/macos-uninstall-adobecc-script/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
       
-      <guid>/posts/how-to-install-font-files-with-sccm-and-command-line/</guid>
-      <description>Scenario I was tasked with remoting installing a font on thousands on endpoints. I thought this should be easy, as surly their is a command line way to do this.
-I was wrong&amp;hellip;.
-There was a command line tool to install font files from the command however it was deprecated and removed.
-However you are not stuck with making API calls in user context to get the Font file installed.</description>
+      <guid>/posts/macos-uninstall-adobecc-script/</guid>
+      <description>Intro This script will run the uninstall for each Adobe Application called in the below script. This script can be added to Jamf or other MDM to uninstall old Adobe CC applications.
+script Coming Soon</description>
+    </item>
+    
+    <item>
+      <title>SCCM - Create Device Collection From Active Directory OU</title>
+      <link>/posts/sccm-create-device-collection-from-active-directory-ou/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/posts/sccm-create-device-collection-from-active-directory-ou/</guid>
+      <description>This is one is easy, Create a Device Collection in SCCM.
+Add A Query Rule using the below.
+select SMS_R_SYSTEM.ResourceID,SMS_R_SYSTEM.ResourceType,SMS_R_SYSTEM.Name,SMS_R_SYSTEM.SMSUniqueIdentifier,SMS_R_SYSTEM.ResourceDomainORWorkgroup,SMS_R_SYSTEM.Client from SMS_R_System Where SMS_R_System.SystemOUName like &#39;%Company.ORG/Company Computers/AnotherOU/NORTH%&#39;</description>
+    </item>
+    
+    <item>
+      <title>SCCM - Use SCCM &amp; Application Model to Copy Files to an Endpoint</title>
+      <link>/posts/use-sccm-application-model-to-copy-files-to-an-endpoint/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/posts/use-sccm-application-model-to-copy-files-to-an-endpoint/</guid>
+      <description>Lets say you need to copy files to a location on the endpoint. that can be done using the SCCM application model in SCCM. this way you can confirm that the file and/or folders are on the endpoint at the end.
+One can do this Via PowerShell or batch file. I like to run the below command from a batch file, In the application i added the Batch file to the installation Program, this way i can add more commands to the process is needed.</description>
+    </item>
+    
+    <item>
+      <title>SCCM - Use SCCM Baselines to Detect Office Installation Version and Bitness</title>
+      <link>/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/</guid>
+      <description>Scenario You have a mix bag of Office 2019 and Office 2016 installs some are 32 or 64bit. You need to create a Device collections in SCCM that reflects what machines have which office version installed and what bitness as well.
+What i tried: My first instinct was to create a device collection using a combination of the below queries:
+select distinct SMS_R_System.ResourceId, SMS_R_System.ResourceType, SMS_R_System.Name, SMS_R_System.SMSUniqueIdentifier, SMS_R_System.ResourceDomainORWorkgroup, SMS_R_System.Client from SMS_R_System inner join SMS_G_System_ADD_REMOVE_PROGRAMS on SMS_G_System_ADD_REMOVE_PROGRAMS.</description>
+    </item>
+    
+    <item>
+      <title>SCCM OSD Set OU Name via .VBS</title>
+      <link>/posts/sccm-osd-set-ou-name-via-vbs/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/posts/sccm-osd-set-ou-name-via-vbs/</guid>
+      <description>Overview This script will set AD OUs during OSD Based off starting characters for the computer name.
+Its set to check the first character for the computer name, however this can changed to a higher count by changing the sComputerName Variable.
+Script  SCCM Setup You will need to create a package in SCCM, this package will be called later in the task sequence.
+ In the task sequence click add -&amp;gt; Run Command Line Check Package: (Select your package you created).</description>
     </item>
     
     <item>

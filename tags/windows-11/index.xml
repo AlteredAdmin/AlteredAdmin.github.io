@@ -6,11 +6,15 @@
     <description>Recent content in Windows 11 on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Jul 2021 15:19:00 -0400</lastBuildDate><atom:link href="/tags/windows-11/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jul 2021 14:37:19 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/windows-11/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Enable secure boot on Dell computers</title>
       <link>/posts/sccm-enable-secure-boot-on-dell-computers/</link>
-      <pubDate>Thu, 15 Jul 2021 15:19:00 -0400</pubDate>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
       
       <guid>/posts/sccm-enable-secure-boot-on-dell-computers/</guid>
       <description>Intro With Windows 11 Coming soon, one of the requirements is that secure boot needs to be enabled.

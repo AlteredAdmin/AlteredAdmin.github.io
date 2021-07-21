@@ -6,40 +6,287 @@
     <description>Recent content in Tags on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Jul 2021 14:37:19 -0400</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Adobe</title>
-      <link>/tags/adobe/</link>
-      <pubDate>Tue, 20 Jul 2021 14:37:19 -0400</pubDate>
-      
-      <guid>/tags/adobe/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Sat, 17 Jul 2021 14:37:19 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>MacOS</title>
-      <link>/tags/macos/</link>
-      <pubDate>Tue, 20 Jul 2021 14:37:19 -0400</pubDate>
+      <title>.MSI</title>
+      <link>/tags/.msi/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
       
-      <guid>/tags/macos/</guid>
+      <guid>/tags/.msi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>.VBS</title>
       <link>/tags/.vbs/</link>
-      <pubDate>Mon, 19 Jul 2021 16:23:32 -0400</pubDate>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
       
       <guid>/tags/.vbs/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Active Directory</title>
+      <link>/tags/active-directory/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/active-directory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adobe</title>
+      <link>/tags/adobe/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/adobe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Application model</title>
+      <link>/tags/application-model/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/application-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Appvols</title>
+      <link>/tags/appvols/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/appvols/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CMtrace</title>
+      <link>/tags/cmtrace/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/cmtrace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Copy files</title>
+      <link>/tags/copy-files/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/copy-files/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dell</title>
+      <link>/tags/dell/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/dell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dymo</title>
+      <link>/tags/dymo/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/dymo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Excel</title>
+      <link>/tags/excel/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/excel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feature Update</title>
+      <link>/tags/feature-update/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/feature-update/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Font</title>
+      <link>/tags/font/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/font/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jamf</title>
+      <link>/tags/jamf/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/jamf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jamf Log</title>
+      <link>/tags/jamf-log/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/jamf-log/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MacOS</title>
+      <link>/tags/macos/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maya</title>
+      <link>/tags/maya/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/maya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maya 2020</title>
+      <link>/tags/maya-2020/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/maya-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Office</title>
+      <link>/tags/office/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/office/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Office 2016</title>
+      <link>/tags/office-2016/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/office-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Office 2019</title>
+      <link>/tags/office-2019/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/office-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>OSD</title>
       <link>/tags/osd/</link>
-      <pubDate>Mon, 19 Jul 2021 16:23:32 -0400</pubDate>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
       
       <guid>/tags/osd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>registry</title>
+      <link>/tags/registry/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/registry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SCCM</title>
+      <link>/tags/sccm/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/sccm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SCCM application Model</title>
+      <link>/tags/sccm-application-model/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/sccm-application-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Secure boot</title>
+      <link>/tags/secure-boot/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/secure-boot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VDI</title>
+      <link>/tags/vdi/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/vdi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vmware</title>
+      <link>/tags/vmware/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/vmware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>/tags/windows/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows 10</title>
+      <link>/tags/windows-10/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/windows-10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows 11</title>
+      <link>/tags/windows-11/</link>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
+      
+      <guid>/tags/windows-11/</guid>
       <description></description>
     </item>
     
@@ -49,249 +296,6 @@
       <pubDate>Thu, 15 Jul 2021 16:18:58 -0400</pubDate>
       
       <guid>/tags/tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jamf</title>
-      <link>/tags/jamf/</link>
-      <pubDate>Thu, 15 Jul 2021 16:02:01 -0400</pubDate>
-      
-      <guid>/tags/jamf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jamf Log</title>
-      <link>/tags/jamf-log/</link>
-      <pubDate>Thu, 15 Jul 2021 16:02:01 -0400</pubDate>
-      
-      <guid>/tags/jamf-log/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Maya</title>
-      <link>/tags/maya/</link>
-      <pubDate>Thu, 15 Jul 2021 15:31:08 -0400</pubDate>
-      
-      <guid>/tags/maya/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Maya 2020</title>
-      <link>/tags/maya-2020/</link>
-      <pubDate>Thu, 15 Jul 2021 15:31:08 -0400</pubDate>
-      
-      <guid>/tags/maya-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SCCM</title>
-      <link>/tags/sccm/</link>
-      <pubDate>Thu, 15 Jul 2021 15:19:00 -0400</pubDate>
-      
-      <guid>/tags/sccm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Secure boot</title>
-      <link>/tags/secure-boot/</link>
-      <pubDate>Thu, 15 Jul 2021 15:19:00 -0400</pubDate>
-      
-      <guid>/tags/secure-boot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>windows</title>
-      <link>/tags/windows/</link>
-      <pubDate>Thu, 15 Jul 2021 15:19:00 -0400</pubDate>
-      
-      <guid>/tags/windows/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Windows 11</title>
-      <link>/tags/windows-11/</link>
-      <pubDate>Thu, 15 Jul 2021 15:19:00 -0400</pubDate>
-      
-      <guid>/tags/windows-11/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Active Directory</title>
-      <link>/tags/active-directory/</link>
-      <pubDate>Sat, 10 Jul 2021 12:43:04 -0400</pubDate>
-      
-      <guid>/tags/active-directory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Office</title>
-      <link>/tags/office/</link>
-      <pubDate>Sat, 10 Jul 2021 12:12:23 -0400</pubDate>
-      
-      <guid>/tags/office/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Office 2016</title>
-      <link>/tags/office-2016/</link>
-      <pubDate>Sat, 10 Jul 2021 12:12:23 -0400</pubDate>
-      
-      <guid>/tags/office-2016/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Office 2019</title>
-      <link>/tags/office-2019/</link>
-      <pubDate>Sat, 10 Jul 2021 12:12:23 -0400</pubDate>
-      
-      <guid>/tags/office-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Feature Update</title>
-      <link>/tags/feature-update/</link>
-      <pubDate>Sat, 10 Jul 2021 12:11:02 -0400</pubDate>
-      
-      <guid>/tags/feature-update/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SCCM application Model</title>
-      <link>/tags/sccm-application-model/</link>
-      <pubDate>Sat, 10 Jul 2021 12:11:02 -0400</pubDate>
-      
-      <guid>/tags/sccm-application-model/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Windows 10</title>
-      <link>/tags/windows-10/</link>
-      <pubDate>Sat, 10 Jul 2021 12:11:02 -0400</pubDate>
-      
-      <guid>/tags/windows-10/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Application model</title>
-      <link>/tags/application-model/</link>
-      <pubDate>Sat, 10 Jul 2021 12:06:59 -0400</pubDate>
-      
-      <guid>/tags/application-model/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Copy files</title>
-      <link>/tags/copy-files/</link>
-      <pubDate>Sat, 10 Jul 2021 12:06:59 -0400</pubDate>
-      
-      <guid>/tags/copy-files/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dymo</title>
-      <link>/tags/dymo/</link>
-      <pubDate>Sat, 10 Jul 2021 12:03:36 -0400</pubDate>
-      
-      <guid>/tags/dymo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Excel</title>
-      <link>/tags/excel/</link>
-      <pubDate>Sat, 10 Jul 2021 12:03:36 -0400</pubDate>
-      
-      <guid>/tags/excel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CMtrace</title>
-      <link>/tags/cmtrace/</link>
-      <pubDate>Sat, 10 Jul 2021 11:42:14 -0400</pubDate>
-      
-      <guid>/tags/cmtrace/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dell</title>
-      <link>/tags/dell/</link>
-      <pubDate>Sat, 10 Jul 2021 11:41:40 -0400</pubDate>
-      
-      <guid>/tags/dell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>registry</title>
-      <link>/tags/registry/</link>
-      <pubDate>Sat, 10 Jul 2021 11:38:28 -0400</pubDate>
-      
-      <guid>/tags/registry/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VDI</title>
-      <link>/tags/vdi/</link>
-      <pubDate>Sat, 10 Jul 2021 11:38:28 -0400</pubDate>
-      
-      <guid>/tags/vdi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>.MSI</title>
-      <link>/tags/.msi/</link>
-      <pubDate>Sat, 10 Jul 2021 11:37:20 -0400</pubDate>
-      
-      <guid>/tags/.msi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Appvols</title>
-      <link>/tags/appvols/</link>
-      <pubDate>Sat, 10 Jul 2021 11:37:20 -0400</pubDate>
-      
-      <guid>/tags/appvols/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vmware</title>
-      <link>/tags/vmware/</link>
-      <pubDate>Sat, 10 Jul 2021 11:37:20 -0400</pubDate>
-      
-      <guid>/tags/vmware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Font</title>
-      <link>/tags/font/</link>
-      <pubDate>Sat, 10 Jul 2021 11:29:06 -0400</pubDate>
-      
-      <guid>/tags/font/</guid>
       <description></description>
     </item>
     

@@ -6,11 +6,15 @@
     <description>Recent content in windows on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Jul 2021 15:19:00 -0400</lastBuildDate><atom:link href="/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jul 2021 14:37:19 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Enable secure boot on Dell computers</title>
       <link>/posts/sccm-enable-secure-boot-on-dell-computers/</link>
-      <pubDate>Thu, 15 Jul 2021 15:19:00 -0400</pubDate>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
       
       <guid>/posts/sccm-enable-secure-boot-on-dell-computers/</guid>
       <description>Intro With Windows 11 Coming soon, one of the requirements is that secure boot needs to be enabled.
@@ -23,7 +27,7 @@ Set the below settings for secure boot. I know you may be tempted to set other B
     <item>
       <title>How to Truly Speed Up Windows Login Time with one Registry entry</title>
       <link>/posts/how-to-truly-speed-up-windows-login-time/</link>
-      <pubDate>Sat, 10 Jul 2021 11:38:28 -0400</pubDate>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
       
       <guid>/posts/how-to-truly-speed-up-windows-login-time/</guid>
       <description>This was discovered when i was looking for a way to speed up login times for windows 10.

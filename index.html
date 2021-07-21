@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.85.0" />
+	<meta name="generator" content="Hugo 0.69.0" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
 <meta property="og:description" content="Collection of scripts and thoughts about system Administration." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/" />
-
+<meta property="og:updated_time" content="2021-07-17T14:37:19-04:00" />
 
 		<meta itemprop="name" content="AlteredAdmin">
 <meta itemprop="description" content="Collection of scripts and thoughts about system Administration.">
@@ -66,83 +66,65 @@
 	<article class="list__item post">
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/macos-uninstall-adobecc-script/" rel="bookmark">
-			MacOS   Uninstall AdobeCC Script
+			<a href="/posts/add-cmtrace-to-system32-folder/" rel="bookmark">
+			Add CMtrace to System32 Folder with SCCM
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">The Admin</span>
 </div>
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-20T14:37:19-04:00">2021-07-20</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/macos/" rel="category">MacOS</a>, <a class="meta__link" href="/categories/adobe/" rel="category">Adobe</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-17T14:37:19-04:00">2021-07-17</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/guides/" rel="category">Guides</a>, <a class="meta__link" href="/categories/sccm/" rel="category">SCCM</a>
 	</span>
 </div></div>
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		Intro This script will run the uninstall for each Adobe Application called in the below script. This script can be added to Jamf or other MDM to uninstall old Adobe CC applications.
-script Coming Soon
+		This is the method i use to make sure every machine has Cmtrace.
+Cmtrace is a tool to read log files, very handy when troubleshooting SCCM logs, or any other logs for that matter.
+You can read more about CMtrace here: Configuration Manager Tools - CMTrace
+I use the application model to install during operating system deployment (OSD).
+And i also create a deployment to All workstations to make sure its installed incase a user removes it.
 	</div>
 </article><article class="list__item post">
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/sccm-osd-set-ou-name-via-vbs/" rel="bookmark">
-			SCCM OSD Set OU Name via .VBS
+			<a href="/posts/copy-files-to-a-users-desktop-using-msi-installer/" rel="bookmark">
+			Copy Files to a user&#39;s Desktop Using MSI installer
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">The Admin</span>
 </div>
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-19T16:23:32-04:00">2021-07-19</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/sccm/" rel="category">SCCM</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-17T14:37:19-04:00">2021-07-17</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/vmware-horizon/" rel="category">Vmware Horizon</a>, <a class="meta__link" href="/categories/sccm/" rel="category">SCCM</a>
 	</span>
 </div></div>
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		Overview This script will set AD OUs during OSD Based off starting characters for the computer name.
-Its set to check the first character for the computer name, however this can changed to a higher count by changing the sComputerName Variable.
-Script  SCCM Setup You will need to create a package in SCCM, this package will be called later in the task sequence.
- In the task sequence click add -&gt; Run Command Line Check Package: (Select your package you created).
+		Scenario You don&rsquo;t want to use UEM/DEM, and you want files made avaibile to the user when they sign in. Or you have some files you need to get out to endpoints and don&rsquo;t want to write a script to copy the files from the SCCM cache to the location. Sometimes you have to do things outside ofthe box. However these file don&rsquo;t install they just need to be copied to a directory, such as the default/public desktop.
 	</div>
 </article><article class="list__item post">
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/jamf-location-of-jamf.log/" rel="bookmark">
-			JAMF - Location of Jamf.log
+			<a href="/posts/create-barcode-with-excel-and-dymo-label-maker-software/" rel="bookmark">
+			Create Barcode With Excel and Dymo Label Maker Software
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">The Admin</span>
 </div>
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-15T16:02:01-04:00">2021-07-15</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/jamf/" rel="category">JAMF</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-17T14:37:19-04:00">2021-07-17</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/office/" rel="category">Office</a>
 	</span>
 </div></div>
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		Because for some reason i can never remember.
-Look in /private/var/log for jamf.log
-	</div>
-</article><article class="list__item post">
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/jamf-install-autodesk-maya-2020/" rel="bookmark">
-			JAMF - Install Autodesk Maya 2020
-			</a>
-		</h2>
-		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">The Admin</span>
-</div>
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-15T15:31:08-04:00">2021-07-15</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/macos/" rel="category">MacOS</a>, <a class="meta__link" href="/categories/autodesk/" rel="category">Autodesk</a>, <a class="meta__link" href="/categories/jamf/" rel="category">JAMF</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		In this case I&rsquo;m using JAMF, and putting the extracting the files to the administrator desktop.
-You will need to prestage the files on the computer. You can use Composer to create a DMG or PKG to extract the files on the endpoint.
-sudo &quot;/Users/administrator/prestage_files/Autodesk/InstallMaya2020.app/Contents/Helper/Setup.app/Contents/MacOS/Setup&quot; -i deploy --silent -o &quot;/Users/administrator/prestage_files/Autodesk/InstallMaya2020.app/Contents/Helper/manifest/deployment_maya.xml&quot;
-You can right Click on the package to show contents and edit the deployment_maya.xml, to inlcude your server info.
-For more information see Basic Maya network deployment
+		For our environment we needed a inexpensive way to print barcodes, that was not tied to unique licensed software.
+our current barcodes are using code 39 format.
+what we decided to try to use a Dymo Label Printer
+LabelWriter 450 Direct Thermal Label Printer
+And we fond labels that where not far off from our current size.
+DYMO LW Multi-Purpose Labels for LabelWriter Label Printers, White, 1&rsquo;&rsquo; x 2-1/8&rsquo;', 1 roll of 500 (30336)
 	</div>
 </article><article class="list__item post">
 	<header class="list__header">
@@ -155,7 +137,7 @@ For more information see Basic Maya network deployment
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">The Admin</span>
 </div>
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-15T15:19:00-04:00">2021-07-15</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/dell/" rel="category">Dell</a>, <a class="meta__link" href="/categories/windows/" rel="category">Windows</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-17T14:37:19-04:00">2021-07-17</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/dell/" rel="category">Dell</a>, <a class="meta__link" href="/categories/windows/" rel="category">Windows</a>
 	</span>
 </div></div>
 	</header>
@@ -169,46 +151,6 @@ Set the below settings for secure boot. I know you may be tempted to set other B
 </article><article class="list__item post">
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/sccm-create-device-collection-from-active-directory-ou/" rel="bookmark">
-			SCCM - Create Device Collection From Active Directory OU
-			</a>
-		</h2>
-		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">The Admin</span>
-</div>
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-10T12:43:04-04:00">2021-07-10</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/sccm/" rel="category">SCCM</a>, <a class="meta__link" href="/categories/guides/" rel="category">Guides</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		This is one is easy, Create a Device Collection in SCCM.
-Add A Query Rule using the below.
-select SMS_R_SYSTEM.ResourceID,SMS_R_SYSTEM.ResourceType,SMS_R_SYSTEM.Name,SMS_R_SYSTEM.SMSUniqueIdentifier,SMS_R_SYSTEM.ResourceDomainORWorkgroup,SMS_R_SYSTEM.Client from SMS_R_System Where SMS_R_System.SystemOUName like '%Company.ORG/Company Computers/AnotherOU/NORTH%'
-	</div>
-</article><article class="list__item post">
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/use-sccm-baselines-to-detect-office-installation-version-and-bitness/" rel="bookmark">
-			SCCM - Use SCCM Baselines to Detect Office Installation Version and Bitness
-			</a>
-		</h2>
-		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">The Admin</span>
-</div>
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-10T12:12:23-04:00">2021-07-10</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/guides/" rel="category">Guides</a>, <a class="meta__link" href="/categories/sccm/" rel="category">SCCM</a>, <a class="meta__link" href="/categories/office/" rel="category">Office</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Scenario You have a mix bag of Office 2019 and Office 2016 installs some are 32 or 64bit. You need to create a Device collections in SCCM that reflects what machines have which office version installed and what bitness as well.
-What i tried: My first instinct was to create a device collection using a combination of the below queries:
-select distinct SMS_R_System.ResourceId, SMS_R_System.ResourceType, SMS_R_System.Name, SMS_R_System.SMSUniqueIdentifier, SMS_R_System.ResourceDomainORWorkgroup, SMS_R_System.Client from SMS_R_System inner join SMS_G_System_ADD_REMOVE_PROGRAMS on SMS_G_System_ADD_REMOVE_PROGRAMS.
-	</div>
-</article><article class="list__item post">
-	<header class="list__header">
-		<h2 class="list__title post__title">
 			<a href="/posts/feature-update-windows-10-using-sccm-application-model/" rel="bookmark">
 			Feature Update Windows 10 Using SCCM Application Model
 			</a>
@@ -217,7 +159,7 @@ select distinct SMS_R_System.ResourceId, SMS_R_System.ResourceType, SMS_R_System
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">The Admin</span>
 </div>
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-10T12:11:02-04:00">2021-07-10</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/windows-10/" rel="category">Windows 10</a>, <a class="meta__link" href="/categories/sccm/" rel="category">SCCM</a>, <a class="meta__link" href="/categories/guides/" rel="category">Guides</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-17T14:37:19-04:00">2021-07-17</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/windows-10/" rel="category">Windows 10</a>, <a class="meta__link" href="/categories/sccm/" rel="category">SCCM</a>, <a class="meta__link" href="/categories/guides/" rel="category">Guides</a>
 	</span>
 </div></div>
 	</header>
@@ -230,44 +172,105 @@ like wise why not use the upgrade task sequence?
 </article><article class="list__item post">
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/use-sccm-application-model-to-copy-files-to-an-endpoint/" rel="bookmark">
-			SCCM - Use SCCM &amp; Application Model to Copy Files to an Endpoint
+			<a href="/posts/how-to-install-font-files-with-sccm-and-command-line/" rel="bookmark">
+			How to Install Font Files With SCCM and Command Line
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">The Admin</span>
 </div>
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-10T12:06:59-04:00">2021-07-10</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/guides/" rel="category">Guides</a>, <a class="meta__link" href="/categories/sccm/" rel="category">SCCM</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-17T14:37:19-04:00">2021-07-17</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/guides/" rel="category">Guides</a>, <a class="meta__link" href="/categories/sccm/" rel="category">SCCM</a>
 	</span>
 </div></div>
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		Lets say you need to copy files to a location on the endpoint. that can be done using the SCCM application model in SCCM. this way you can confirm that the file and/or folders are on the endpoint at the end.
-One can do this Via PowerShell or batch file. I like to run the below command from a batch file, In the application i added the Batch file to the installation Program, this way i can add more commands to the process is needed.
+		Scenario I was tasked with remoting installing a font on thousands on endpoints. I thought this should be easy, as surly their is a command line way to do this.
+I was wrong&hellip;.
+There was a command line tool to install font files from the command however it was deprecated and removed.
+However you are not stuck with making API calls in user context to get the Font file installed.
 	</div>
 </article><article class="list__item post">
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/create-barcode-with-excel-and-dymo-label-maker-software/" rel="bookmark">
-			Create Barcode With Excel and Dymo Label Maker Software
+			<a href="/posts/how-to-truly-speed-up-windows-login-time/" rel="bookmark">
+			How to Truly Speed Up Windows Login Time with one Registry entry
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">The Admin</span>
 </div>
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-10T12:03:36-04:00">2021-07-10</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/office/" rel="category">Office</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-17T14:37:19-04:00">2021-07-17</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/guides/" rel="category">Guides</a>, <a class="meta__link" href="/categories/windows/" rel="category">Windows</a>, <a class="meta__link" href="/categories/registry/" rel="category">registry</a>
 	</span>
 </div></div>
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		For our environment we needed a inexpensive way to print barcodes, that was not tied to unique licensed software.
-our current barcodes are using code 39 format.
-what we decided to try to use a Dymo Label Printer
-LabelWriter 450 Direct Thermal Label Printer
-And we fond labels that where not far off from our current size.
-DYMO LW Multi-Purpose Labels for LabelWriter Label Printers, White, 1'' x 2-1/8'', 1 roll of 500 (30336)
+		This was discovered when i was looking for a way to speed up login times for windows 10.
+We already looked removing the universal apps that ship with windows 10, and a few other tricks here or there to get log in time to down from 1:20 to 30 - 50 seconds. still that is good from what i have read online.
+however while we was implementing VMware Horizon i wondered if the log in time could be decreased even further.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/how-to-update-dell-drivers-and-bios-during-sccm-osd/" rel="bookmark">
+			How to Update Dell Drivers and BIOS During SCCM OSD
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">The Admin</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-17T14:37:19-04:00">2021-07-17</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/guides/" rel="category">Guides</a>, <a class="meta__link" href="/categories/sccm/" rel="category">SCCM</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Download Dell command update &amp; XML file &amp; create Packages: Download Dell Command Update Do not download the Universal Windows Platform version
+Copy it to your SCCM Source content along with the below XML file.
+Keep in mind this file may need to be regenerated if its too old.
+ You will need to create an Application for Dell Command Update. You can ether import the .exe you get from dell or extract the .
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/jamf-install-autodesk-maya-2020/" rel="bookmark">
+			JAMF - Install Autodesk Maya 2020
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">The Admin</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-17T14:37:19-04:00">2021-07-17</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/macos/" rel="category">MacOS</a>, <a class="meta__link" href="/categories/autodesk/" rel="category">Autodesk</a>, <a class="meta__link" href="/categories/jamf/" rel="category">JAMF</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		In this case I&rsquo;m using JAMF, and putting the extracting the files to the administrator desktop.
+You will need to prestage the files on the computer. You can use Composer to create a DMG or PKG to extract the files on the endpoint.
+sudo &quot;/Users/administrator/prestage_files/Autodesk/InstallMaya2020.app/Contents/Helper/Setup.app/Contents/MacOS/Setup&quot; -i deploy --silent -o &quot;/Users/administrator/prestage_files/Autodesk/InstallMaya2020.app/Contents/Helper/manifest/deployment_maya.xml&quot;
+You can right Click on the package to show contents and edit the deployment_maya.xml, to inlcude your server info.
+For more information see Basic Maya network deployment
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/jamf-location-of-jamf.log/" rel="bookmark">
+			JAMF - Location of Jamf.log
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">The Admin</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-07-17T14:37:19-04:00">2021-07-17</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/jamf/" rel="category">JAMF</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Because for some reason i can never remember.
+Look in /private/var/log for jamf.log
 	</div>
 </article>
 </main>
@@ -291,11 +294,11 @@ DYMO LW Multi-Purpose Labels for LabelWriter Label Printers, White, 1'' x 2-1/8'
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/posts/macos-uninstall-adobecc-script/">MacOS   Uninstall AdobeCC Script</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/sccm-osd-set-ou-name-via-vbs/">SCCM OSD Set OU Name via .VBS</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/jamf-location-of-jamf.log/">JAMF - Location of Jamf.log</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/jamf-install-autodesk-maya-2020/">JAMF - Install Autodesk Maya 2020</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/add-cmtrace-to-system32-folder/">Add CMtrace to System32 Folder with SCCM</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/copy-files-to-a-users-desktop-using-msi-installer/">Copy Files to a user&#39;s Desktop Using MSI installer</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/create-barcode-with-excel-and-dymo-label-maker-software/">Create Barcode With Excel and Dymo Label Maker Software</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/sccm-enable-secure-boot-on-dell-computers/">Enable secure boot on Dell computers</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/feature-update-windows-10-using-sccm-application-model/">Feature Update Windows 10 Using SCCM Application Model</a></li>
 		</ul>
 	</div>
 </div>

@@ -6,11 +6,15 @@
     <description>Recent content in Dell on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Jul 2021 11:41:40 -0400</lastBuildDate><atom:link href="/tags/dell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jul 2021 14:37:19 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/dell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>How to Update Dell Drivers and BIOS During SCCM OSD</title>
       <link>/posts/how-to-update-dell-drivers-and-bios-during-sccm-osd/</link>
-      <pubDate>Sat, 10 Jul 2021 11:41:40 -0400</pubDate>
+      <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
       
       <guid>/posts/how-to-update-dell-drivers-and-bios-during-sccm-osd/</guid>
       <description>Download Dell command update &amp;amp; XML file &amp;amp; create Packages: Download Dell Command Update Do not download the Universal Windows Platform version
