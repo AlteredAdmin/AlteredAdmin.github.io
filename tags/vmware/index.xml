@@ -6,11 +6,7 @@
     <description>Recent content in Vmware on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Jul 2021 14:37:19 -0400</lastBuildDate>
-    
-	<atom:link href="/tags/vmware/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 17 Jul 2021 14:37:19 -0400</lastBuildDate><atom:link href="/tags/vmware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Copy Files to a user&#39;s Desktop Using MSI installer</title>
       <link>/posts/copy-files-to-a-users-desktop-using-msi-installer/</link>

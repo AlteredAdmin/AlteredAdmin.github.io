@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reddit on AlteredAdmin</title>
+    <link>/tags/reddit/</link>
+    <description>Recent content in Reddit on AlteredAdmin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Aug 2021 12:39:00 -0400</lastBuildDate><atom:link href="/tags/reddit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python - Download Media From a Reddit User</title>
+      <link>/posts/python-download-media-from-a-reddit-user/</link>
+      <pubDate>Sun, 22 Aug 2021 12:39:00 -0400</pubDate>
+      
+      <guid>/posts/python-download-media-from-a-reddit-user/</guid>
+      <description>The below python script will download media from a reddit users account.
+You will need to set up a reddit client_id=&#39;&#39;, client_secret=&#39;&#39;, google can assist you with setting that up.
+ </description>
+    </item>
+    
+    <item>
+      <title>Python - Download Media From Subreddit</title>
+      <link>/posts/python-download-media-from-subreddit/</link>
+      <pubDate>Sun, 22 Aug 2021 10:37:57 -0400</pubDate>
+      
+      <guid>/posts/python-download-media-from-subreddit/</guid>
+      <description>The below python script will download media from subreddits, it can be useful for downloading all the wallpapers posted to r/wallpapers.
+You will need to set up a reddit client_id=&#39;&#39;, client_secret=&#39;&#39;, google can assist you with setting that up.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,10 +6,24 @@
     <description>Recent content in Categories on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Jul 2021 14:37:19 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 22 Aug 2021 12:39:00 -0400</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python</title>
+      <link>/categories/python/</link>
+      <pubDate>Sun, 22 Aug 2021 12:39:00 -0400</pubDate>
+      
+      <guid>/categories/python/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Sysadmin Tools</title>
+      <link>/categories/sysadmin-tools/</link>
+      <pubDate>Sun, 22 Aug 2021 10:52:47 -0400</pubDate>
+      
+      <guid>/categories/sysadmin-tools/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Adobe</title>
@@ -116,15 +130,6 @@
       <pubDate>Sat, 17 Jul 2021 14:37:19 -0400</pubDate>
       
       <guid>/categories/windows-10/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tools</title>
-      <link>/categories/tools/</link>
-      <pubDate>Thu, 15 Jul 2021 16:18:58 -0400</pubDate>
-      
-      <guid>/categories/tools/</guid>
       <description></description>
     </item>
     

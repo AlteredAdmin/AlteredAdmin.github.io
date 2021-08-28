@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on AlteredAdmin</title>
+    <link>/tags/python/</link>
+    <description>Recent content in Python on AlteredAdmin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Aug 2021 12:39:00 -0400</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python - Download Media From a Reddit User</title>
+      <link>/posts/python-download-media-from-a-reddit-user/</link>
+      <pubDate>Sun, 22 Aug 2021 12:39:00 -0400</pubDate>
+      
+      <guid>/posts/python-download-media-from-a-reddit-user/</guid>
+      <description>The below python script will download media from a reddit users account.
+You will need to set up a reddit client_id=&#39;&#39;, client_secret=&#39;&#39;, google can assist you with setting that up.
+ </description>
+    </item>
+    
+    <item>
+      <title>Python - Download Media From Subreddit</title>
+      <link>/posts/python-download-media-from-subreddit/</link>
+      <pubDate>Sun, 22 Aug 2021 10:37:57 -0400</pubDate>
+      
+      <guid>/posts/python-download-media-from-subreddit/</guid>
+      <description>The below python script will download media from subreddits, it can be useful for downloading all the wallpapers posted to r/wallpapers.
+You will need to set up a reddit client_id=&#39;&#39;, client_secret=&#39;&#39;, google can assist you with setting that up.
+ </description>
+    </item>
+    
+    <item>
+      <title>Python - Print Tables with Python and CSVs</title>
+      <link>/posts/python-print_tables_with_python_and_csvs/</link>
+      <pubDate>Sun, 08 Aug 2021 11:42:11 -0400</pubDate>
+      
+      <guid>/posts/python-print_tables_with_python_and_csvs/</guid>
+      <description>One can use prettytable module to print out table in ASCII.
+You can read more about prettytable with the below link and installation instructions
+https://pypi.org/project/prettytable/
+See below Gist for a quick way to get started reading a CSV file.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

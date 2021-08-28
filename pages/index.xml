@@ -6,13 +6,18 @@
     <description>Recent content in Pages on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Jul 2021 16:18:58 -0400</lastBuildDate>
-    
-	<atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 22 Aug 2021 10:52:47 -0400</lastBuildDate><atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OSINT Tool Box</title>
+      <link>/pages/osint-tool-box/</link>
+      <pubDate>Sun, 22 Aug 2021 10:52:47 -0400</pubDate>
+      
+      <guid>/pages/osint-tool-box/</guid>
+      <description>Useful List of Tools and Links H2 H3  name - Description  </description>
+    </item>
     
     <item>
-      <title>Tool Box</title>
+      <title>Sysadmin Tool Box</title>
       <link>/pages/tool-box/</link>
       <pubDate>Thu, 15 Jul 2021 16:18:58 -0400</pubDate>
       

@@ -6,11 +6,7 @@
     <description>Recent content in registry on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Jul 2021 14:37:19 -0400</lastBuildDate>
-    
-	<atom:link href="/tags/registry/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 17 Jul 2021 14:37:19 -0400</lastBuildDate><atom:link href="/tags/registry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Truly Speed Up Windows Login Time with one Registry entry</title>
       <link>/posts/how-to-truly-speed-up-windows-login-time/</link>

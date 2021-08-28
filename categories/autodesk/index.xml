@@ -6,11 +6,7 @@
     <description>Recent content in Autodesk on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Jul 2021 14:37:19 -0400</lastBuildDate>
-    
-	<atom:link href="/categories/autodesk/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 17 Jul 2021 14:37:19 -0400</lastBuildDate><atom:link href="/categories/autodesk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JAMF - Install Autodesk Maya 2020</title>
       <link>/posts/jamf-install-autodesk-maya-2020/</link>

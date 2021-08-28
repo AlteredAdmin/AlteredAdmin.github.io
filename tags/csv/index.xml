@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSV on AlteredAdmin</title>
+    <link>/tags/csv/</link>
+    <description>Recent content in CSV on AlteredAdmin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Aug 2021 11:42:11 -0400</lastBuildDate><atom:link href="/tags/csv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python - Print Tables with Python and CSVs</title>
+      <link>/posts/python-print_tables_with_python_and_csvs/</link>
+      <pubDate>Sun, 08 Aug 2021 11:42:11 -0400</pubDate>
+      
+      <guid>/posts/python-print_tables_with_python_and_csvs/</guid>
+      <description>One can use prettytable module to print out table in ASCII.
+You can read more about prettytable with the below link and installation instructions
+https://pypi.org/project/prettytable/
+See below Gist for a quick way to get started reading a CSV file.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

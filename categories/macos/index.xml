@@ -6,11 +6,7 @@
     <description>Recent content in MacOS on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Jul 2021 14:37:19 -0400</lastBuildDate>
-    
-	<atom:link href="/categories/macos/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 17 Jul 2021 14:37:19 -0400</lastBuildDate><atom:link href="/categories/macos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JAMF - Install Autodesk Maya 2020</title>
       <link>/posts/jamf-install-autodesk-maya-2020/</link>
@@ -31,7 +27,7 @@ For more information see Basic Maya network deployment</description>
       
       <guid>/posts/macos-uninstall-adobecc-script/</guid>
       <description>Intro This script will run the uninstall for each Adobe Application called in the below script. This script can be added to Jamf or other MDM to uninstall old Adobe CC applications.
-script Coming Soon</description>
+script  </description>
     </item>
     
   </channel>

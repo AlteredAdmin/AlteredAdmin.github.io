@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sysadmin Tools on AlteredAdmin</title>
+    <link>/tags/sysadmin-tools/</link>
+    <description>Recent content in Sysadmin Tools on AlteredAdmin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Aug 2021 10:52:47 -0400</lastBuildDate><atom:link href="/tags/sysadmin-tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OSINT Tool Box</title>
+      <link>/pages/osint-tool-box/</link>
+      <pubDate>Sun, 22 Aug 2021 10:52:47 -0400</pubDate>
+      
+      <guid>/pages/osint-tool-box/</guid>
+      <description>Useful List of Tools and Links H2 H3  name - Description  </description>
+    </item>
+    
+    <item>
+      <title>Sysadmin Tool Box</title>
+      <link>/pages/tool-box/</link>
+      <pubDate>Thu, 15 Jul 2021 16:18:58 -0400</pubDate>
+      
+      <guid>/pages/tool-box/</guid>
+      <description>Useful List of Tools and Links Dell Dell command  Dell Command Update - Download Dell Command Update and read release notes and specifications. Dell Command | Configure - Dell Command Configure is a packaged software application that provides configuration capability to business client platforms.  Dell drivers  Dell Command | Deploy Driver Packs for Enterprise Client OS Deployment - Article on Driver Packs for Enterprise Client  WYSE  Wyse Management Suite Wyse 5470 All-In-One  Microsoft SCCM  Right CLick tools  - Productivity extension for Microsoft Configuration Manager.</description>
+    </item>
+    
+  </channel>
+</rss>

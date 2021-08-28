@@ -6,10 +6,41 @@
     <description>Recent content in Posts on AlteredAdmin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Jul 2021 14:37:19 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 22 Aug 2021 12:39:00 -0400</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python - Download Media From a Reddit User</title>
+      <link>/posts/python-download-media-from-a-reddit-user/</link>
+      <pubDate>Sun, 22 Aug 2021 12:39:00 -0400</pubDate>
+      
+      <guid>/posts/python-download-media-from-a-reddit-user/</guid>
+      <description>The below python script will download media from a reddit users account.
+You will need to set up a reddit client_id=&#39;&#39;, client_secret=&#39;&#39;, google can assist you with setting that up.
+ </description>
+    </item>
     
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python - Download Media From Subreddit</title>
+      <link>/posts/python-download-media-from-subreddit/</link>
+      <pubDate>Sun, 22 Aug 2021 10:37:57 -0400</pubDate>
+      
+      <guid>/posts/python-download-media-from-subreddit/</guid>
+      <description>The below python script will download media from subreddits, it can be useful for downloading all the wallpapers posted to r/wallpapers.
+You will need to set up a reddit client_id=&#39;&#39;, client_secret=&#39;&#39;, google can assist you with setting that up.
+ </description>
+    </item>
     
+    <item>
+      <title>Python - Print Tables with Python and CSVs</title>
+      <link>/posts/python-print_tables_with_python_and_csvs/</link>
+      <pubDate>Sun, 08 Aug 2021 11:42:11 -0400</pubDate>
+      
+      <guid>/posts/python-print_tables_with_python_and_csvs/</guid>
+      <description>One can use prettytable module to print out table in ASCII.
+You can read more about prettytable with the below link and installation instructions
+https://pypi.org/project/prettytable/
+See below Gist for a quick way to get started reading a CSV file.
+ </description>
+    </item>
     
     <item>
       <title>Add CMtrace to System32 Folder with SCCM</title>
@@ -44,7 +75,7 @@ our current barcodes are using code 39 format.
 what we decided to try to use a Dymo Label Printer
 LabelWriter 450 Direct Thermal Label Printer
 And we fond labels that where not far off from our current size.
-DYMO LW Multi-Purpose Labels for LabelWriter Label Printers, White, 1&amp;rsquo;&amp;rsquo; x 2-1/8&amp;rsquo;&#39;, 1 roll of 500 (30336)</description>
+DYMO LW Multi-Purpose Labels for LabelWriter Label Printers, White, 1&#39;&#39; x 2-1/8&#39;&#39;, 1 roll of 500 (30336)</description>
     </item>
     
     <item>
@@ -137,7 +168,7 @@ Look in /private/var/log for jamf.log</description>
       
       <guid>/posts/macos-uninstall-adobecc-script/</guid>
       <description>Intro This script will run the uninstall for each Adobe Application called in the below script. This script can be added to Jamf or other MDM to uninstall old Adobe CC applications.
-script Coming Soon</description>
+script  </description>
     </item>
     
     <item>
